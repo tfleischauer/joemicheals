@@ -1,5 +1,11 @@
          <footer>
-         	<p>&copy; 2014 Joe Micheals. All rights reserved. <!--Log in...--></p>
+
+          <script>
+		 	var date = new Date();
+			var year = date.getFullYear(); 
+			 document.write("<p>&copy; " + year + " Joe Micheals. All rights reserved.</p>");
+		  </script>
+         
          </footer>
          
         
