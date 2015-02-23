@@ -28,8 +28,8 @@
     	<div id="wrapper">
     
       <header>
-      		<h1><a href="http://divsigner.com/stagingarea/joemicheals/"> <img src="images/JMSignatureTrace2-405x160px-transparent.png" alt="Joe Micheals header image" /></a><span>Joe Micheals: Voice-Over Artist</span></h1>
-            <h2 class="tagline">Voice Over The Northwest</h2>
+      		<h1><a href="http://www.joemicheals.com/"> <img src="images/JMSignatureTrace2-405x160px-transparent.png" alt="Joe Micheals header image" /></a><span>Joe Micheals: Voice-Over Artist</span></h1>
+            <h2 class="tagline">Joe Micheals | Voice Over The Northwest</h2>
   	  </header>  <!-- End Header -->
 
         <?php include ('includes/navigation.php'); ?>

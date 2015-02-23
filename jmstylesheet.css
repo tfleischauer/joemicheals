@@ -31,7 +31,7 @@
 
 body, body * {
  	/*border:0 none;*/
-    /*margin:0; breaks paragraph*/
+    /*margin:0;*/ /* breaks paragraph */
     /*padding:0;*/
 	/*margin:0;*/ /* this one breaks old lay out the most, padding is oK */
 	/*outline:0;*/
@@ -149,14 +149,20 @@ ul {
 	/*list-style-type:none;*/
 	/*padding:0em 0em 0em 0em;*/
 	color:black;
-	padding-left: 1em;
-    margin-left: 1em;				
+	padding-left: 0;	
+	margin-bottom:0;			
 }
 
 li {
 	/*display:inline;*/	
-	/*padding:0em 0em 0em 1em;*/
+	padding:0em 0em 0.3125em 1em;
 	color:black;
+}
+
+p, dl, multicol {
+  display: block;
+  /* margin: 1em 0; */
+  margin-top:0;
 }
 
 textarea {
@@ -188,8 +194,8 @@ audio {
 img {
 	max-width:100%;
 	/*min-width:100%;*/
-	margin-left:auto;
-	margin-right:auto;
+	/*margin-left:auto;*/
+	/*margin-right:auto;*/
 }
 
 /*** END GLOBAL STYLES ***/
@@ -238,15 +244,15 @@ header img {
 	padding-top:10px;
 	padding-left:15px;	
 	
-	display:inline-block;
+	display:block;
 }
 
 header h2.tagline {
 	font-size:1.2em;
 	width: 400px;
 	position: absolute;
-	top: 117px;
-	left: 130px;	
+	top: 120px;
+	left: 90px;	
 	font-weight: 400;
 }
 
@@ -290,7 +296,6 @@ nav ul {
 	/*padding-left: 0em;*/
    /* margin-left: 0em;*/
    padding:0;
-   margin: 0 0px;
    margin: 0 20px;
    /*clear:both;*/
 	
@@ -300,6 +305,7 @@ nav li {
 	float:left;
 	line-height:60px;
 	list-style-type:none;
+	padding:0em 0em 0em 0em;
 }
 
 nav a {
@@ -370,7 +376,7 @@ nav ul li.main-on a {
 
 .area310px {
 	width:310px;
-	float:right;	
+	float:right;
 }
 
 .commercial-left {
@@ -378,13 +384,34 @@ nav ul li.main-on a {
 	float:left;	
 }
 
+.text-left {
+	width:250px;
+	float:left;	
+	padding-right:20px;
+}
+
 .commercial-wrapper {
 	/*padding-right:20px;	*/
+}
+
+.game {
+	overflow:hidden;
+	clear: both;
+	margin-bottom:15px;		
 }
 
 .hornall {
 	width:550px;
 	float:right;
+}
+
+.video-div {
+	width:550px;
+	float:right;
+}
+
+.video-div .iframe-wrapper {
+	margin-bottom: 15px;	
 }
 
 .half1 {
@@ -409,7 +436,11 @@ ul.inPageList {
 
 .disc {
 	list-style-type: disc;	
-	padding-left:.75em;
+	/*padding-left:.75em;*/
+}
+
+li.disc {
+	margin-left: 1em;	
 }
 
 #contact-joe {
@@ -557,7 +588,7 @@ iframe {
     /*width: 77%; */
 	/*width:280px;*/
 	width:100%;
-	heigt:100%;
+	height:100%;
 	/*float:right;*/
     /*height: 390px;*/
     /*margin: 0 auto;*/
