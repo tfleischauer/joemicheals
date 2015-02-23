@@ -16,10 +16,11 @@
             
             <p>Surprisingly, there were a few fans who compiled the <abbr title="voice-overs">V/Os</abbr> of Announcer for Portal 2 and posted them to YouTube.</p>
                                    
-            <ul><b>More Portal 2:</b>
-                <li><a href="http://theportalwiki.com/wiki/Announcer" target="_parent">Portal 2 - Wiki</a></li>
-                <li><a href="http://www.imdb.com/title/tt1648163/?ref_=nm_ov_bio_lk1" target="_blank">Portal 2 - IMDb</a></li>
-                <li><a href="http://www.thinkwithportals.com/" target="_parent">Portal 2 - Valve</a></li>
+            <p class="list-description">More Portal 2:</p>
+            <ul>
+                <li><a href="http://www.imdb.com/title/tt1648163/?ref_=nm_ov_bio_lk1" target="_blank">IMDb - Portal 2</a></li>
+                <li><a href="http://theportalwiki.com/wiki/Announcer" target="_blank">Announcer - Portal Wiki</a></li>
+                <li><a href="http://www.thinkwithportals.com/" target="_blank">Official Portal 2 Website</a></li>
             </ul>
             
        </div> <!-- end text-left -->
@@ -27,7 +28,7 @@
        <div class="video-div">
        
             <div class="iframe-wrapper">
-              <iframe src="//www.youtube.com/embed/S1YzIMpDBbQ" allowfullscreen></iframe>
+              <iframe class="iframe-embed" src="//www.youtube.com/embed/S1YzIMpDBbQ" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
          <p><small>Compilation of my 'Announcer' voice-overs that appeared in Portal 2</small></p>
@@ -43,7 +44,8 @@
                 
           <p><em>Personal Trainer: Cooking</em> was produced for <a href="http://www.nintendo.com/ds" target="_parent">Nintendo DS</a>, and as the name implies, it is interactive instructional software for preparing recipes that is accessible through a portable device!</p>
           
-          <ul><b>More Personal Trainer:</b>
+          <p class="list-description">More Personal Trainer: Cooking</p>
+          <ul>
                 <li><a href="http://personaltrainercooking.com/features/index.html#features-ds-chef" target="_blank">Official Site</a></li>
                 <li><a href="http://www.nintendo.com/games/detail/0GH0z7XuqgMVHravefY0EVUR_xzNIXa7" target="_blank">Nintendo Games</a></li>
           </ul>
@@ -51,13 +53,12 @@
       </div> <!-- end text-left -->
        
       <div class="video-div">
-         <a id="nintendoImage" href="http://personaltrainercooking.com" target="_blank"> <img src="images/Personal_Trainer_Cooking_640x390px.png" alt="Personal Trainer: Cooking (Nintendo)" /></a>
-          
-          <!--<p><small>Personal Trainer: Cooking (Nintendo)</small></p>-->
-          
+         <a id="nintendoImage" href="http://personaltrainercooking.com" target="_blank"> <img src="images/Personal_Trainer_Cooking_640x390px.png" alt="Personal Trainer: Cooking (Nintendo)" /></a>       
+          <!--<p><small>Personal Trainer: Cooking (Nintendo)</small></p>-->       
       </div> <!-- end video-div -->
-       
-         
+                
 </div> <!-- end game -->
+
+</div> <!-- end middle -->
         
 <?php include("includes/footer.php");   ?>

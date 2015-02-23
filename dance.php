@@ -42,16 +42,16 @@
                                    
                                    <p>The Electrodes - Drowsey Maggie</p>
                                    
-                                   <p><small><a href="https://www.facebook.com/TheElectrodes" target="_parent">The Electrodes</a>: </small></p>
+                                   <p class="list-description"><small><a href="https://www.facebook.com/TheElectrodes" target="_parent">The Electrodes</a>: </small></p>
                                    
-        							<small>
+        							
                                    	<ul> 
-                                    	<li>Joe Bowbeer...Fiddle</li> 
-                                        <li>Marcy Kubbs...Piano</li>
-                                        <li>Joe Micheals...Guitar</li>
+                                    	<li class="small">Joe Bowbeer...Fiddle</li> 
+                                        <li class="small">Marcy Kubbs...Piano</li>
+                                        <li class="small">Joe Micheals...Guitar</li>
                                     </ul>
                                     
-                                    </small>
+                                    
                                     </li>
                                     
                                    

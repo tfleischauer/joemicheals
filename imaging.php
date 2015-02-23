@@ -20,7 +20,7 @@
 	                
                     <ul class="inPageList">
                         
-                          <li>
+                          <li class="border-bottom">
                             <audio  controls>  
                               <source src="audio/JoeMichealsSpirit10532010Promos.mp3" type="audio/mpeg">
                               <source src="audio/JoeMichealsSpirit10532010Promos.ogg" type="audio/ogg">
@@ -29,9 +29,9 @@
                             <p class="audio-caption">KCMS Spirit 105.3 Seattle</p>
                           </li>
                           
-                          <hr>
+                          <!--<hr>-->
                       
-                          <li>
+                          <li class="border-bottom">
                               <audio  controls> 
                                 <source src="audio/JoeMichealsWJMCRadioDemo.mp3" type="audio/mpeg">
                                 <source src="audio/JoeMichealsWJMCRadioDemo.ogg" type="audio/ogg">
@@ -40,7 +40,7 @@
                               <p class="audio-caption">WJMC Best Country 96.1 Wisconsin</p> <!--http://wjmcradio.com/-->
                           </li>
                           
-                          <hr>
+                          <!--<hr>-->
                            
                           <li>
                               <audio  controls> 

@@ -79,7 +79,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: "PT Sans"	
+	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 }
 
 h1 {
@@ -150,7 +150,8 @@ ul {
 	/*padding:0em 0em 0em 0em;*/
 	color:black;
 	padding-left: 0;	
-	margin-bottom:0;			
+	margin-bottom:0;
+	margin-top: .15em;			
 }
 
 li {
@@ -168,7 +169,7 @@ p, dl, multicol {
 textarea {
 	/*cols:200;
 	rows:4;	*/
-	spellcheck:true;
+	/*spellcheck:true;*/
 }
 
 footer {
@@ -198,6 +199,16 @@ img {
 	/*margin-right:auto;*/
 }
 
+.list-description {
+	font-weight: bold;
+	margin-bottom: 0;	
+}
+
+.list description + ul {
+	padding-top: 0;
+	margin-top: 0;	
+}
+
 /*** END GLOBAL STYLES ***/
 
 /* LAYOUT STYLES */
@@ -206,7 +217,7 @@ img {
 	background-color:#fff;
 	/* width:50%; */
 	width:860px;
-	margin-top:25px;
+	margin-top:30px;
 	margin-right:auto;
 	margin-bottom:25px;
 	margin-left:auto;
@@ -238,6 +249,7 @@ header {
 	/*background-color: #333;	*/
 	/*clear:both;*/
 	position: relative;
+	margin-bottom: 5px;
 }
 
 header img {
@@ -248,12 +260,16 @@ header img {
 }
 
 header h2.tagline {
-	font-size:1.2em;
+	font-size:1.1em;
 	width: 400px;
 	position: absolute;
-	top: 120px;
+	top: 122px;
 	left: 90px;	
 	font-weight: 400;
+}
+
+.tagline a:hover {
+	color: #000;	
 }
 
 header a {
@@ -288,7 +304,7 @@ nav {
 	/*padding: 0 5px; */
 	overflow:hidden;
 	/*margin: 30px auto;*/ /* for development only */ /* 30px above, 30px below, auto left and right to center */
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	clear: both;
 }
 
@@ -434,13 +450,22 @@ ul.inPageList {
 	/*margin-left:.65em;*/
 }
 
+.border-bottom {
+	border-bottom:1px solid #000;
+	margin-bottom:25px;	
+}
+
 .disc {
 	list-style-type: disc;	
-	/*padding-left:.75em;*/
+	padding-left:.15em;
 }
 
 li.disc {
 	margin-left: 1em;	
+}
+
+.small {
+	font-size: small;	
 }
 
 #contact-joe {
@@ -571,7 +596,7 @@ iframe {
     border: 0;
 	/*width:470px;
 	height:264px;*/
-	frameborder:2;
+	/*frameborder:2;*/
 
 	padding: 1em 0em 1em 0em;
 	
@@ -597,11 +622,15 @@ iframe {
     border: 0;
 	/*width:470px;
 	height:264px;*/
-	frameborder:2;
+	/*frameborder:2;*/
 
 	/*padding: 1em 0em 1em 0em;*/
 	
 
+}
+
+.iframe-embed {
+	border: 0;
 }
 
 .light {
@@ -668,10 +697,8 @@ img.hoveringRIGHTimage {
 }
 
 hr {
-	margin-bottom:25px;	
+	/*margin-bottom:25px;*/	
 }
-
-
 
 .form-field {
 	height:28px;	

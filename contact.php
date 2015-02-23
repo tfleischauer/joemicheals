@@ -22,15 +22,15 @@
                             </tr>
                             <tr>
                                 <td>Comments:</td>
-                                <td><textarea name="Comments" rows="6" cols="22"></textarea></td><!--Insert your message here, please. size="35"-->
+                                <td><textarea name="Comments" rows="6" cols="22" spellcheck="true" ></textarea></td><!--Insert your message here, please. size="35"-->
                             </tr>  
                             <tr>
                                 <td colspan="2">
                                     <input type="hidden" name="Subject" value="joemicheals.com" />   
-                                    <input type="hidden" name="ToEmail" value="tfleischauer@gmail.com" />
-                                    <input type="hidden" name="ToFirst" value="Troy" />
-                                    <input type="hidden" name="ToLast" value="Fleischauer" />
-                                    <input type="hidden" name="Thanks" value="http://www.divsigner.com/stagingarea/joemicheals/thankyou.php" />
+                                    <input type="hidden" name="ToEmail" value="joemicheals@comcast.net" />
+                                    <input type="hidden" name="ToFirst" value="Joe" />
+                                    <input type="hidden" name="ToLast" value="Micheals" />
+                                    <input type="hidden" name="Thanks" value="http://www.joemicheals.com/thankyou.php" />
                                     
                                     <input type="submit" value="Send"   />
                                  </td>

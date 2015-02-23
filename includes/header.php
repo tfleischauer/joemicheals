@@ -12,15 +12,15 @@
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
         
-        <meta name="description" content="Joe Micheals: Voice-over talent, air personality, industrial voice-over, commercial voice-over, video-game voice over, imaging voice-over" /> 
+        <meta name="description" content="Joe Micheals: Voice-over talent, air personality, 'industrial voice-over', 'commercial voice-over', 'video-game voice over', 'imaging voice-over' " /> 
         
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic,600,600italic,800,800italic' rel='stylesheet' type='text/css'>
+       <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic,600,600italic,800,800italic' rel='stylesheet' type='text/css'> -->
         
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         
-        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
         
-        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>     
+        <!-- <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'> -->     
         
     </head>
     
@@ -29,7 +29,7 @@
     
       <header>
       		<h1><a href="http://www.joemicheals.com/"> <img src="images/JMSignatureTrace2-405x160px-transparent.png" alt="Joe Micheals header image" /></a><span>Joe Micheals: Voice-Over Artist</span></h1>
-            <h2 class="tagline">Joe Micheals | Voice Over The Northwest</h2>
+            <h2 class="tagline"><a href="http://www.joemicheals.com/">Joe Micheals | Voice Over The Northwest</a></h2>
   	  </header>  <!-- End Header -->
 
         <?php include ('includes/navigation.php'); ?>

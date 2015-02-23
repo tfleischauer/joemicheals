@@ -4,7 +4,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 if ($page == 'index.php') { print 'Home'; }
 
-if ($page == 'commercial.php') { print 'Commercial &amp Industrial'; }
+if ($page == 'commercial.php') { print 'Commercial &amp; Industrial'; }
 
 if ($page == 'games.php') { print 'Video Games'; }
 

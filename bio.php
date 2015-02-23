@@ -24,9 +24,9 @@
     <p>
       <img class="hoveringRIGHTimage" src="images/joemicheals-163x236.png" alt="Joe Micheals (2004)" />
     
-      Part of the job description of the radio and television business was doing commercials. I grew to appreciate the artistry of doing voice for various audio and film projects. Doing <acronym title="voice-overs">V/O's</acronym> exclusively was a natural evolution.</p> 
+      Part of the job description of the radio and television business was doing commercials. I grew to appreciate the artistry of doing voice for various audio and film projects. Doing <abbr title="voice-overs">V/O's</abbr> exclusively was a natural evolution.</p> 
       
-    <p>Since doing <abbr title="voice-overs">V/O’s</abbr> full time I‘ve had the privilege of working with some of America’s finest companies including Microsoft, Weyerhauser, Nordstrom, Valve, Safeway, Boeing, and Nintendo.  See resume of companies still in business.</p>
+    <p>Since doing V/O’s full time I‘ve had the privilege of working with some of America’s finest companies including Microsoft, Weyerhauser, Nordstrom, Valve, Safeway, Boeing, and Nintendo.  See resume of companies still in business.</p>
     
     <p>I’ve always enjoyed inflating the benefits of products and services to the maximum boundary of truth. I’d like to walk the fine line between truth and fiction about your product or service.</p>   
       
