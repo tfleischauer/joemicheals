@@ -5,7 +5,7 @@
                     	<h2><em>Voice Over Dance</em></h2>
                   
                 	<div class="area460px"> 
-                    <p>I am traditional <a href="http://en.wikipedia.org/wiki/Contra_dance">Contra</a> dancer, caller, and musician.</p>
+                    <p>I am traditional <a href="http://en.wikipedia.org/wiki/Contra_dance" target="_blank">Contra</a> dancer, caller, and musician.</p>
                               
                 	<h3>Caller</h3>
                   
@@ -22,7 +22,7 @@
     
     				 <h3>Musician</h3>
                 
-                	<p>I also enjoy playing music as well as calling it. My instruments are acoustic guitar and bass. I play with a few bands in the northwest area primarily Red Crow, Swinging on a Star, and  <a href="https://www.facebook.com/TheElectrodes" target="_parent">The Electrodes.</a></p>
+                	<p>I also enjoy playing music as well as calling it. My instruments are acoustic guitar and bass. I play with a few bands in the northwest area primarily Red Crow, Swinging on a Star, and  <a href="https://www.facebook.com/TheElectrodes" target="_blank">The Electrodes.</a></p>
                     
                     </div> <!-- end area460px  -->
                     
@@ -42,7 +42,7 @@
                                    
                                    <p>The Electrodes - Drowsey Maggie</p>
                                    
-                                   <p class="list-description"><small><a href="https://www.facebook.com/TheElectrodes" target="_parent">The Electrodes</a>: </small></p>
+                                   <p class="list-description"><small><a href="https://www.facebook.com/TheElectrodes" target="_blank">The Electrodes</a>: </small></p>
                                    
         							
                                    	<ul> 
@@ -54,7 +54,6 @@
                                     
                                     </li>
                                     
-                                   
                                 </ul>
                               </div> <!-- end area310px  --> 
                           </div> <!-- end class="middle" -->      

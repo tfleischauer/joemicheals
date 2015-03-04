@@ -26,7 +26,7 @@
     
       Part of the job description of the radio and television business was doing commercials. I grew to appreciate the artistry of doing voice for various audio and film projects. Doing <abbr title="voice-overs">V/O's</abbr> exclusively was a natural evolution.</p> 
       
-    <p>Since doing V/O’s full time I‘ve had the privilege of working with some of America’s finest companies including Microsoft, Weyerhauser, Nordstrom, Valve, Safeway, Boeing, and Nintendo.  See resume of companies still in business.</p>
+    <p>Since doing V/O’s full time, I‘ve had the privilege of working with some of America’s finest companies including Microsoft, Weyerhauser, Nordstrom, Valve, Safeway, Boeing, and Nintendo. These are a few that are still in business.</p> <!--See resume of companies still in business.-->
     
     <p>I’ve always enjoyed inflating the benefits of products and services to the maximum boundary of truth. I’d like to walk the fine line between truth and fiction about your product or service.</p>   
       
@@ -38,7 +38,9 @@
     <p> 
         <img class="hoveringicon" src="images/JMSeattleTimes175x195.png" alt="Joe Micheals on Seattle Times News Box" />
         
-        <em>Have you ever noticed these newspaper boxes around Western Washington?</em> In 1992, Joe was one of the media models who was photographed reading a Seattle Times newspaper. Over twenty years later, these mailboxes can still be found all over Western Washington.</p>
+        <em>Have you ever noticed these newspaper boxes around Western Washington?</em></p> 
+        
+        <p>In 1992, Joe was one of the media models who was photographed reading a Seattle Times newspaper. Over twenty years later, these mailboxes can still be found all over Western Washington.</p>
         
     <p> Joe has also won an <a href="http://www.aafseattle.com/addy">Addy Award</a> for King 5 News, and has been known for the special skill of Master of Ceremonies.</p>          
              

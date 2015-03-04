@@ -42,7 +42,7 @@
        
       <div class="text-left">
                 
-          <p><em>Personal Trainer: Cooking</em> was produced for <a href="http://www.nintendo.com/ds" target="_parent">Nintendo DS</a>, and as the name implies, it is interactive instructional software for preparing recipes that is accessible through a portable device!</p>
+          <p><em>Personal Trainer: Cooking</em> was produced for <a href="http://www.nintendo.com/ds" target="_blank">Nintendo DS</a>, and as the name implies, it is interactive instructional software for preparing recipes that is accessible through a portable device!</p>
           
           <p class="list-description">More Personal Trainer: Cooking</p>
           <ul>
