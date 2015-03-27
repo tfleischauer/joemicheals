@@ -113,7 +113,7 @@ h3 {
 h4 {
 	/*font-family:*//*Garamond,*//*Trajan,Georgia;*/
 	width:50%;
-	padding: 0em 0em .25em 0em;	
+	padding: 0em 0em 0em 0em;	
 }
 
 a {
@@ -706,5 +706,9 @@ hr {
 
 td {
 	padding-bottom:10px;	
+}
+
+.top {
+	margin-top:25px;
 }
 

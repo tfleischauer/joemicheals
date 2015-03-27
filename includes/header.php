@@ -1,9 +1,19 @@
-<!doctype html>
+<!DOCTYPE HTML>
+
+<!-- 
+
+Joe Micheals
+
+Web Design by Troy Fleischauer, 2012
+http://portfolio.troyfleischauer.com
+
+-->
+
 <html id="top">
     <head>
 		<title>Joe Micheals | <?php include('includes/titles.php'); ?></title>
         <meta charset="UTF-8">
-        <!--<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">-->
+        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
         
         <!-- Remy Sharp Shim --> 
 		<!--[if lt IE 9]>
@@ -11,19 +21,12 @@
 		<![endif]-->
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
-        
-        <meta name="description" content="Joe Micheals: Voice Over the Northwest. Voice-over talent and air personality." />
-        <meta name=viewport content="width=device-width, initial-scale=1">
-        
-        <!-- <meta keywords 'industrial voice-over', 'commercial voice-over', 'video-game voice over', 'imaging voice-over' " /> -->
-        
-        <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic,600,600italic,800,800italic' rel='stylesheet' type='text/css'> -->
-        
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         
-        <!-- <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
+        <meta name="description" content="Joe Micheals: Voice Over the Northwest. Voice-over talent and air personality." />
+        <meta keywords=" 'industrial voice-over', 'commercial voice-over', 'video-game voice over', 'imaging voice-over', 'Portal 2 Announcer' " /> 
         
-        <!-- <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'> -->     
+        <meta name=viewport content="width=device-width, initial-scale=1">    
         
     </head>
     
