@@ -4,7 +4,7 @@
 
 <h2><em>Voice-Over Video Games</em></h2>
 
-<div class="game">
+<section>
   
       <h3>Portal 2: Announcer (Valve)</h3>
       
@@ -34,9 +34,9 @@
          <p><small>Compilation of my 'Announcer' voice-overs that appeared in Portal 2</small></p>
          
        </div> <!-- end video-div -->
-</div> <!-- end game -->
+</section>
 
-<div class="game">         
+<section>         
        
       <h3>Personal Trainer: Cooking - DS Chef (Nintendo)</h3>
        
@@ -57,7 +57,7 @@
           <!--<p><small>Personal Trainer: Cooking (Nintendo)</small></p>-->       
       </div> <!-- end video-div -->
                 
-</div> <!-- end game -->
+</section>
 
 </div> <!-- end middle -->
         

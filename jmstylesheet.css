@@ -1,85 +1,49 @@
-/*CSS for Joe Micheals*/
+/* CSS for Joe Micheals */
 
 /* RESETS */
-
-/*body, body * {
-	margin: 0;	
-	padding: 0;
-}*/
-
+body, body * {
+ 	/*border: 0 none;*/
+    /*margin: 0;*/ /* breaks paragraphs and layout in Firefox */
+    padding: 0;
+	/*outline: 0;*/
+	/*vertical-align: baseline;*/
+	/*text-decoration: none;*/
+	/*background: transparent;*/		
+}
 /* END RESETS */
 
-/* DEVELOPMENT ONLY */
-
-/*div, header, nav, aside, footer {
-	border: 1px solid red;	
-}*/
-
-/* blue */
-/*nav li {
-	background-color:#009;	
-}*/
-
-/* olive green */
-/*nav a {
-	background-color:#990; 
-}*/
-
-/* END DEVELOPMENT ONLY */
-
 /* GLOBAL STYLES */
-
-body, body * {
- 	/*border:0 none;*/
-    /*margin:0;*/ /* breaks paragraph */
-    /*padding:0;*/
-	/*margin:0;*/ /* this one breaks old lay out the most, padding is oK */
-	/*outline:0;*/
-	/*vertical-align:baseline;*/
-	/*text-decoration:none;*/
-	/*background:transparent;*/		
-}
-
 html  {
-	/* background-image: url('images/gradientBackGround1_20x500.png'); */
-	/* background-repeat:repeat-x; */
-	/* background-color:#f1f1f1; */ /* off white to contrast white wrapper color */
-	
 	/* Gradient solution from Duckett p.419 2011 */
-	
 	/* fallback color */
-	  background-color:#6F848D; /* original background color */
-	  /* fallback image */
-	  background-image: url("images/fallback-image.png"); 
-	  /* Firefox 3.6+ */
-	  background-image: -moz-linear-gradient(#01161E, #DCF1FB);
-	  /* Safari 4+, Chrome 1+ */
-	  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#01161E), to(#DCF1FB));
-	  /* Safari 5.1+, Chrome 10+ */
-	  background-image: -webkit-linear-gradient(#01161E, #DCF1FB); 
-	  /* Opera 11.10+ */
-	  background-image: -o-linear-gradient(#01161E, #DCF1FB);
-	  height: 100%;
-	  /* This line is the money code, and not in Duckett CSS3: Gradients */
-	  background-attachment: fixed;	
+	background-color:#6F848D; /* original background color */
+	/* background-color:#f1f1f1; */ /* off white to contrast white wrapper color */
+	/* fallback image */
+	background-image: url('images/gradientBackGround1_20x500.png'); 
+	background-repeat:repeat-x;
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(#01161E, #DCF1FB);
+	/* Safari 4+, Chrome 1+ */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#01161E), to(#DCF1FB));
+	/* Safari 5.1+, Chrome 10+ */
+	background-image: -webkit-linear-gradient(#01161E, #DCF1FB); 
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(#01161E, #DCF1FB);
+	height: 100%;
+	/* This line is the money code, and not in Duckett CSS3: Gradients */
+	background-attachment: fixed;	
 }
 
 body {
-	font-family: "PT Sans", "Open Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	font-size:100%; 
-	/* width:100%; */
 	color:#000;
-	line-height:150%;
+	line-height:1.5;
 	margin-left:auto;
-	margin-right:auto;
-	/*min-height:50%;*/	
+	margin-right:auto;	
 	margin-top: 0px;
   	margin-bottom: 20px;
 	padding-bottom:15px;	
-}
-
-h1, h2, h3, h4 {
-	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 }
 
 h1 {
@@ -146,7 +110,6 @@ a:focus {
 ul {
 	text-decoration:none;
 	list-style-type:none;
-	/*list-style-type:none;*/
 	/*padding:0em 0em 0em 0em;*/
 	color:black;
 	padding-left: 0;	
@@ -181,12 +144,14 @@ footer {
 	/* padding-top:1em; */	
 }
 
+.top {
+	margin-top:25px;
+}
+
 .smallcapsarecool {
 	font-weight: normal;
 	font-variant: small-caps;
 }
-
-/*.player { width:100%; }*/
 
 audio {
 	max-width:100%;
@@ -194,9 +159,6 @@ audio {
 
 img {
 	max-width:100%;
-	/*min-width:100%;*/
-	/*margin-left:auto;*/
-	/*margin-right:auto;*/
 }
 
 .list-description {
@@ -209,45 +171,46 @@ img {
 	margin-top: 0;	
 }
 
+.strong {
+	font-weight:900;	
+}
+
+/* on imaging page */
+.audio-caption {
+	font-size:.9em;
+}
+
+.light {
+	color:#666;		
+}
+
+.border-bottom {
+	border-bottom:1px solid #000;
+	margin-bottom:25px;	
+}
+
+.disc {
+	list-style-type: disc;	
+	 padding-left:.15em; 
+}
+
+li.disc {
+	margin-left: 1em;	
+}
+
+.small {
+	font-size: small;	
+}
+
+section {
+	overflow:hidden;
+	clear: both;
+	margin-bottom:15px;		
+}
 /*** END GLOBAL STYLES ***/
 
-/* LAYOUT STYLES */
-
-#wrapper {
-	background-color:#fff;
-	/* width:50%; */
-	width:860px;
-	margin-top:30px;
-	margin-right:auto;
-	margin-bottom:25px;
-	margin-left:auto;
-	/* padding: 0em 1.1em .25em 1.1em; */
-	border-radius:9px; /* Rounded corners */
-	-moz-border-radius:9px; /* Rounded corners in old versions of mozilla */
-	-webkit-border-radius:9px; /* Rounded corners in old versions of Safari and Chrome */
-	box-shadow: 3px 4px 3px #666; /* horizontal, vertical, blur, color */
-}
-
-h1 span {
-	display:none;	
-}
-
-a.menu {
-	/*font-variant: small-caps;*/
-	/*color:#FFF;*/ /* white */
-	/*text-decoration: none;*/	
-	/*border-bottom: none;*/ 
-	/* font-size:103%;	*/
-	
-	/*background-color:#FFF;*/
-	/*color:#000;*/
-}
-
 /*** HEADER ***/
-
 header {
-	/*background-color: #333;	*/
-	/*clear:both;*/
 	position: relative;
 	margin-bottom: 5px;
 }
@@ -257,6 +220,10 @@ header img {
 	padding-left:15px;	
 	
 	display:block;
+}
+
+h1 span {
+	display:none;	
 }
 
 header h2.tagline {
@@ -290,31 +257,22 @@ header a:hover {
 	background-color:transparent;	
 	
 }
-
 /*** END HEADER ***/
 
 /*** NAVIGATION STYLES ***/
-
 nav {
 	height:60px;
 	line-height:60px;
 	font-variant: small-caps;
 	background-color:black;
-	/*font-size:123%;*/
-	/*padding: 0 5px; */
 	overflow:hidden;
-	/*margin: 30px auto;*/ /* for development only */ /* 30px above, 30px below, auto left and right to center */
 	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	clear: both;
 }
 
 nav ul {
-	/*padding-left: 0em;*/
-   /* margin-left: 0em;*/
    padding:0;
    margin: 0 20px;
-   /*clear:both;*/
-	
 }
 
 nav li {
@@ -328,16 +286,9 @@ nav a {
 	color:#FFF; /* white */	
 	padding: 0 14px; /* top-bottom, left-right */	
 	display:block; /* fills entire list item's content area */
-	/* border-bottom:none; */
 	text-decoration:none;
-	/*background-color:yellow;*/
-	/*border-right: 1px solid #FFF;*/
 	font-size: 18px;
 	border-bottom:none;	
-}
-
-nav a.first { /* #nav-main li:first-child a { */ /* This woud work too */
-	/*border-left: 1px solid #FFF; */	
 }
 
 nav a:hover,
@@ -356,17 +307,29 @@ nav ul li.main-on a {
 	background-color: #000;
 	text-decoration:underline;
 }
-
 /* END NAVIGATION STYLES */
+
+/* LAYOUT STYLES */
+#wrapper {
+	background-color:#fff;
+	width:860px;
+	margin-top:30px;
+	margin-right:auto;
+	margin-bottom:25px;
+	margin-left:auto;
+	/* padding: 0em 1.1em .25em 1.1em; */
+	border-radius:9px; /* Rounded corners */
+	-moz-border-radius:9px; /* Rounded corners in old versions of mozilla */
+	-webkit-border-radius:9px; /* Rounded corners in old versions of Safari and Chrome */
+	box-shadow: 3px 4px 3px #666; /* horizontal, vertical, blur, color */
+}
 
 .bodyCopy {	
 	/* width:100%; */
 	margin-left:auto;
 	margin-right:auto;
-	/*text-align: justify;*/
 	padding-left:20px;
-	padding-right:20px;	
-	/*clear: both;	*/	
+	padding-right:20px;		
 }
 
 .middle {
@@ -374,14 +337,11 @@ nav ul li.main-on a {
 	padding-left:20px; /* add 14 px to be same padding as nav items */
 	padding-right:20px;	/* add 14 px to be same padding as nav items */
 	clear:both;
-	/*text-align: justify;*/ /* Makes line lengths equal */
 }
 
 #middle-contact {
 	overflow:hidden;
-	/*text-align: justify;*/ /* Makes line lengths equal */	
 	padding-left:20px;
-	/*padding-right:20px;	*/
 	padding-right:100px;	
 }
 
@@ -406,96 +366,6 @@ nav ul li.main-on a {
 	padding-right:20px;
 }
 
-.commercial-wrapper {
-	/*padding-right:20px;	*/
-}
-
-.game {
-	overflow:hidden;
-	clear: both;
-	margin-bottom:15px;		
-}
-
-.hornall {
-	width:550px;
-	float:right;
-}
-
-.video-div {
-	width:550px;
-	float:right;
-}
-
-.video-div .iframe-wrapper {
-	margin-bottom: 15px;	
-}
-
-.half1 {
-	width:390px;
-	float:left;	
-}
-
-.half2 {
-	width:390px;
-	float:right;	
-}
-
-td {
-	 vertical-align: top; 		
-}
-
-ul.inPageList {
-	/*padding-top: .5em;*/	
-	/*margin-bottom:.45em;*/
-	/*margin-left:.65em;*/
-}
-
-.border-bottom {
-	border-bottom:1px solid #000;
-	margin-bottom:25px;	
-}
-
-.disc {
-	list-style-type: disc;	
-	padding-left:.15em;
-}
-
-li.disc {
-	margin-left: 1em;	
-}
-
-.small {
-	font-size: small;	
-}
-
-#contact-joe {
-	width:300px;
-	float:left	
-}
-
-/*#contact-agent {
-	width:300px;
-	float:right	
-}*/
-
-.cashman-drawing {
-	width:350px;
-	float:right	
-}
-
-.iframePortal {
-    display: block;
-	/*width: 640px;*/
-    width: 79%; /*467px*/
-    /*height: 390px;*/
-	/*height:73%;*/
-    margin-left:auto;
-	margin-right:auto;
-    border: 0;
-	padding-top:2em;	
-	/*frameborder:2;*/
-}
-
 #nintendoImage {
 	text-decoration: none;	
 	border-bottom: none;	
@@ -507,64 +377,16 @@ a#nintendoImage:hover {
 	border-bottom:none;	
 }
 
-#pt-cooking {
-	width:79%;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:2em;			
-}
-
-.pt {
-	margin-top:50px;	
-}
-
-#label-nintendoImage {
-	margin: .25em 0em 0em 8em;	
-}
-
-#embed206 {
-	
-	/*display: block;*/
-	width: 79%; 
-   /* width: 640px;
-    height: 390px;*/
-    /*margin: 0 auto;*/
-    border: 0;	
-	padding-top:2em;
-	/*margin-top:4em;*/
-	margin-left:auto;
-	margin-right:auto;
-	/*display:inline;*/	
-}
-
-#embedEveningMagazine {
-	/*
-	display: block;*/
-	width: 79%; 
-	/*height:79%;*/
-    /*width: 640px;*/
-    /*height: 390px;*/
-    /*margin: 0 auto;*/
-    /*border: 0;	*/
-	
-	padding-top:2em;
-	padding-bottom:1em;
-	margin-left:auto;
-	margin-right:auto;
-	
-	
-}
-
-.video-game-paragraphs {
-	width:600px;
-	margin:auto;
-}
-
-/*.vidList {
-	padding:1em 0em .5em 1em;
-}*/
-
 /*** IFRAME ***/
+.video-div {
+	width:550px;
+	float:right;
+}
+
+.video-div .iframe-wrapper {
+	margin-bottom: 15px;	
+}
+
 .iframe-wrapper { 
 	height: 0;
 	position: relative;
@@ -577,82 +399,14 @@ iframe {
 	position:absolute;
 	top:0;
 	left:0;
-}	
-/*** END IFRAME ***/
-
-.strong {
-	font-weight:900;	
-}
-
-
-#iframeAlmostLive {
-	display: block;
-	/*width: 640px;*/
-    width: 77%; 
-    /*height: 390px;*/
-    /*margin: 0 auto;*/
-	margin-left:auto;
-	margin-right:auto;
-    border: 0;
-	/*width:470px;
-	height:264px;*/
-	/*frameborder:2;*/
-
-	padding: 1em 0em 1em 0em;
-	
-
-}
-
-#labelalmostlive {
-	margin: 1em 0em 0em 6em;	
-}
-
-#iframeHornall {
-	display: block;
-	/*width: 640px;*/
-    /*width: 77%; */
-	/*width:280px;*/
-	width:100%;
-	height:100%;
-	/*float:right;*/
-    /*height: 390px;*/
-    /*margin: 0 auto;*/
-	/*margin-left:auto;
-	margin-right:auto;*/
-    border: 0;
-	/*width:470px;
-	height:264px;*/
-	/*frameborder:2;*/
-
-	/*padding: 1em 0em 1em 0em;*/
-	
-
 }
 
 .iframe-embed {
 	border: 0;
-}
+}	
+/*** END IFRAME ***/
 
-.light {
-	color:#666;		
-}
-
-address {
-	margin-top:2em;
-}
-
-/*ul.socialmedia-buttons smw_left {
-	
-	display:inline;
-	
-}*/
-
-.socialmedia-buttons smw_left {
-	padding-top:2em;
-	margin-left:5em;
-	float:right;	
-}
-
+/*** BIO PAGE ***/
 img.hoveringicon {
 	float:left;
 	margin-right:1em;
@@ -685,30 +439,35 @@ img.hoveringRIGHTimage {
 	/*border: 2px solid black;*/
 	overflow:hidden;
 }
+/*** END BIO PAGE ***/
+
+/*** CONTACT / THANK YOU PAGES ***/
+.form-field {
+	height:28px;	
+}
+
+td {
+	vertical-align: top; 
+	padding-bottom:10px;	
+}
+
+address {
+	margin-top:2em;
+}
+
+#contact-joe {
+	width:300px;
+	float:left	
+}
+
+.cashman-drawing {
+	width:350px;
+	float:right	
+}
+/*** END CONTACT / THANK YOU PAGES ***/
 
 #validation-icons a {
 	text-decoration:none;
 	background-color:transparent;
 	border-bottom:none;	
 }
-
-.audio-caption {
-	font-size:.9em;
-}
-
-hr {
-	/*margin-bottom:25px;*/	
-}
-
-.form-field {
-	height:28px;	
-}
-
-td {
-	padding-bottom:10px;	
-}
-
-.top {
-	margin-top:25px;
-}
-

@@ -18,7 +18,7 @@
                     
              		 <h3>Radio Imaging</h3>           
 	                
-                    <ul class="inPageList">
+                    <ul>
                         
                           <li class="border-bottom">
                             <audio  controls>  
@@ -57,7 +57,7 @@
                     
                     <h3>TV Imaging</h3>
                                            
-                        <ul class="inPageList">
+                        <ul>
                             
                               <li>
                                 <audio  controls>  

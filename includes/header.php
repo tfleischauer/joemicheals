@@ -2,9 +2,9 @@
 
 <!-- 
 
-Joe Micheals
+Joe Micheals: Voice Over the Northwest
 
-Web Design by Troy Fleischauer, 2012
+Web Design 2012 by Troy Fleischauer
 http://portfolio.troyfleischauer.com
 
 -->
@@ -13,7 +13,9 @@ http://portfolio.troyfleischauer.com
     <head>
 		<title>Joe Micheals | <?php include('includes/titles.php'); ?></title>
         <meta charset="UTF-8">
-        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+        <meta name="ROBOTS" content="INDEX, FOLLOW">
+        <meta name="description" content="Joe Micheals: Voice Over the Northwest. Voice-over talent and air personality." />
+        <meta name=viewport content="width=device-width, initial-scale=1"> 
         
         <!-- Remy Sharp Shim --> 
 		<!--[if lt IE 9]>
@@ -22,12 +24,7 @@ http://portfolio.troyfleischauer.com
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        
-        <meta name="description" content="Joe Micheals: Voice Over the Northwest. Voice-over talent and air personality." />
-        <meta keywords=" 'industrial voice-over', 'commercial voice-over', 'video-game voice over', 'imaging voice-over', 'Portal 2 Announcer' " /> 
-        
-        <meta name=viewport content="width=device-width, initial-scale=1">    
-        
+             
     </head>
     
     <body>

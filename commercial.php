@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-<div class="middle commercial-wrapper">
+<div class="middle">
 
 	<h2><em>Voice-Over Commercial &amp; Industrial</em></h2>
     
