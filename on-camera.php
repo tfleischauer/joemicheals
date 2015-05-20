@@ -17,7 +17,7 @@
                 <iframe class="iframe-embed" src="https://www.youtube.com/embed/dAwKj6Ryppw" allowfullscreen></iframe>
               </div> <!-- end iframe wrapper --> 
                    
-           <p><small>Montage of King 5 V/Os</small></p>
+           <p class="small video-caption">Montage of King 5 V/Os</p>
            
          </div> <!-- end video-div -->
     </section>
@@ -34,7 +34,7 @@
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/bbSeWSI0SHE" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p><small>Promo for The [206]</small></p>
+         <p class="small video-caption">Promo for The [206]</p>
          
         </div> <!-- end video-div -->
     </section>

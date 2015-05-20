@@ -53,7 +53,7 @@
                    </div> <!-- end contact-joe -->
                    
                    <div class="cashman-drawing">
-                    	<img src="images/joeByCashman-front-500x746px.jpg" alt="Illustration of Joe Micheals by Pat Cashman">
+                    	<img src="images/joeByCashman-front-500x746px.jpg" alt="Illustration of Joe Micheals by Pat Cashman" title="Illustration by Pat Cashman">
                    </div>
                  
        		  <!--</div>--> <!-- end bodyCopy -->

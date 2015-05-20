@@ -30,7 +30,7 @@
            <h3>Public Service V/O</h3>          
 
               <div class="iframe-wrapper">
-              	<iframe id="iframeHornall" src="//www.youtube.com/embed/lFFU1ICti2Q?feature=player_detailpage" allowfullscreen></iframe> <!-- frameborder="0" -->
+              	<iframe class="iframe-embed" src="//www.youtube.com/embed/lFFU1ICti2Q?feature=player_detailpage" allowfullscreen></iframe> <!-- frameborder="0" -->
               </div> <!-- end iframe wrapper --> 
                    
            <p><small>Print and Industrial on-camera samples available on request.</small></p>

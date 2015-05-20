@@ -31,7 +31,7 @@
               <iframe class="iframe-embed" src="//www.youtube.com/embed/S1YzIMpDBbQ" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p><small>Compilation of my 'Announcer' voice-overs that appeared in Portal 2</small></p>
+         <p><small>Compilation of 'Announcer' voice-overs that I recorded for Portal 2</small></p>
          
        </div> <!-- end video-div -->
 </section>
