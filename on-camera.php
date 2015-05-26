@@ -2,8 +2,42 @@
 
 <div class="middle">
 
-  <h2><em>Voice-Over On-Camera</em></h2>
-  
+	<h2><em>Voice-Over On-Camera</em></h2>
+
+    <section>
+      <h3>Evening Magazine</h3>
+        <div class="text-left">     
+            <p>Evening Magazine 25th Anniversary story about Joe Micheals.</p>  
+         </div> <!-- end text-left -->
+    
+  		 <div class="video-div">
+         
+              <div class="iframe-wrapper">
+  				<iframe class="iframe-embed" src="https://www.youtube.com/embed/3PeSOL-1TBY" allowfullscreen></iframe>
+  			  </div> <!-- end iframe wrapper --> 
+                   
+           <p class="small video-caption">Evening Magazine 25</p>
+           
+         </div> <!-- end video-div -->
+    </section>
+    
+    <section>
+      <h3>The [206] | Promo 1</h3>
+        <div class="text-left"> 
+            <p>This was the first promo for The [206] - with John Keister, Pat Cashman, and Chris Cashman.</p>
+        </div> <!-- end text-left -->
+       
+        <div class="video-div">
+       
+            <div class="iframe-wrapper">
+              <iframe class="iframe-embed" src="https://www.youtube.com/embed/bbSeWSI0SHE" allowfullscreen></iframe>
+            </div> <!-- end iframe wrapper --> 
+                 
+         <p class="small video-caption">Promo for The [206]</p>
+         
+        </div> <!-- end video-div -->
+    </section>
+    
     <section>
       <h3>King 5 Announcer</h3>
         <div class="text-left">     
@@ -20,23 +54,6 @@
            <p class="small video-caption">Montage of King 5 V/Os</p>
            
          </div> <!-- end video-div -->
-    </section>
-  
-    <section>
-      <h3>The [206] | Promo 1</h3>
-        <div class="text-left"> 
-            <p>This was the first promo for The [206] - with John Keister, Pat Cashman, and Chris Cashman.</p>
-        </div> <!-- end text-left -->
-       
-        <div class="video-div">
-       
-            <div class="iframe-wrapper">
-              <iframe class="iframe-embed" src="https://www.youtube.com/embed/bbSeWSI0SHE" allowfullscreen></iframe>
-            </div> <!-- end iframe wrapper --> 
-                 
-         <p class="small video-caption">Promo for The [206]</p>
-         
-        </div> <!-- end video-div -->
     </section>
     
     <!--<section>            
