@@ -132,37 +132,6 @@ footer {
 	font-variant: small-caps;
 }
 
-audio {
-	max-width: 100%;
-}
-
-/* on imaging page */
-.audio-caption {
-	font-size: .9em;
-}
-
-/* adds margin between audio player and h3 above */
-.audio-player-margin-top {
-	margin-top: 20px;	
-}
-
-.audio-player {
-	margin-bottom: 20px;
-	margin-left: .2em;	
-}
-
-/* adds border under audio player */
-.border-bottom {
-	border-bottom: 1px solid #000;
-	margin-bottom: 20px;
-	width: 98%;
-}
-
-.video-caption {
-	padding-top: 0;
-	margin-top: 0;	
-}
-
 .small {
 	font-size: small;	
 }
@@ -345,6 +314,34 @@ a#nintendoImage:hover {
 	border-bottom: none;	
 }
 
+/*** AUDIO PLAYER EMBED ***/
+audio {
+	max-width: 100%;
+}
+
+/* on imaging page */
+.audio-caption {
+	font-size: .9em;
+}
+
+/* adds margin between audio player and h3 above */
+.audio-player-margin-top {
+	margin-top: 20px;	
+}
+
+.audio-player {
+	margin-bottom: 20px;
+	margin-left: .2em;	
+}
+
+/* adds border under audio player */
+.border-bottom {
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+	width: 98%;
+}
+/*** END AUDIO PLAYER EMBED ***/
+
 /*** IFRAME ***/
 .video-div {
 	width: 550px;
@@ -371,6 +368,16 @@ iframe {
 
 .iframe-embed {
 	border: 0;
+}
+
+.video-caption {
+	padding-top: 0;
+	margin-top: 0;	
+}
+
+.video-caption-310px {
+	margin-top: 8px;
+	font-size: .9em;	
 }
 /*** END IFRAME ***/
 

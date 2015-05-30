@@ -21,32 +21,52 @@
     
         <h3>Musician</h3>
     
-        	<p>I also enjoy playing music as well as calling it. My instruments are acoustic guitar and bass. I play with a few bands in the northwest area primarily Red Crow, Swinging on a Star, and  <a href="https://www.facebook.com/TheElectrodes" target="_blank">The Electrodes.</a></p>
+        	<p>I also enjoy playing music as well as calling it. My instruments are acoustic guitar and bass. I play with a few bands in the northwest area primarily Red Crow, Swinging on a Star, and The Electrodes.</p>
       
       </div> <!-- end area460px  -->
     
     <div class="area310px">
    
     
-    <h3>Music</h3>
+    <h3>Audio</h3>
 
         <div class="audio-player audio-player-margin-top">
     
           <audio controls>
-            <source src="audio/Drowsy-Maggie.mp3" type="audio/mpeg">
-            <source src="audio/Drowsy-Maggie.ogg" type="audio/ogg">
+            <source src="audio/Drowsy-Maggie-June-2015.mp3" type="audio/mpeg">
+            <source src="audio/Drowsy-Maggie-June-2015.ogg" type="audio/ogg">
             Your browser does not support the audio element.
           </audio>
           <p class="audio-caption">The Electrodes - Drowsey Maggie</p>
         </div> <!-- end audio-player -->
+    
+    <h3>Video</h3>
+            
+         <div> <!-- iframe-div -->
+              <div class="iframe-wrapper">
+                <iframe class="iframe-embed" src="https://www.youtube.com/embed/FeE15HUr6tg" allowfullscreen></iframe>
+  			  </div> <!-- end iframe wrapper --> 
+                   
+           <p class="video-caption-310px">The Electrodes - Grumblin' & Growlin'</p>
            
-           <p class="list-description"><small><a href="https://www.facebook.com/TheElectrodes" target="_blank">The Electrodes</a>: </small></p>
+         </div> <!-- iframe-div -->
+         
+         <!-- 
+         <p class="list-description"><small><a href="https://www.facebook.com/TheElectrodes" target="_blank">The Electrodes</a>: </small></p>
            
             <ul> 
                 <li class="small">Joe Bowbeer... Fiddle</li> 
                 <li class="small">Marcy Kubbs... Piano</li>
                 <li class="small">Joe Micheals... Guitar</li>
             </ul>
+         -->
+         
+           <p class="list-description"><em>Follow</em> The Electrodes:</p>
+             <ul> 
+                <li><a href="https://soundcloud.com/electrodesband" target="_blank">SoundCloud</a></li>
+                <li><a href="https://www.facebook.com/TheElectrodes" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCJZHvGEgdqHWoktuwxu0yYw" target="_blank">YouTube</a></li>
+             </ul>
                 
           </div> <!-- end area310px  --> 
       </div> <!-- end class="middle" -->      
