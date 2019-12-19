@@ -279,7 +279,7 @@ nav ul li.main-on a {
 #middle-contact {
 	overflow: hidden;
 	padding-left: 20px;
-	padding-right: 100px;
+	padding-right: 20px;
 }
 
 .area460px {
@@ -417,35 +417,88 @@ img.hoveringRIGHTimage {
 /*** END BIO PAGE ***/
 
 /*** CONTACT / THANK YOU PAGES ***/
-.form-field {
-	height: 28px;	
-}
-
-td {
-	vertical-align: top; 
-	padding-bottom: 10px;	
-}
-
-address {
+address.thankyou {
 	margin-top: 2em;
 }
 
 #contact-joe {
-	width: 300px;
-	float: left	
+	float: left;
+	margin-bottom: 25px;
+	width: 460px;
 }
 
 .cashman-drawing {
-	width: 350px;
+	width: 310px;
 	float: right;
 	position: relative;
 	top: -19px;	
 }
 
-.z {
+/*.z {
 	z-index: -10;	
+}*/
+
+form {
+	font-size: 100%;	
+}
+
+label {
+	margin-bottom:.75%;	
+}
+
+input,
+textarea {
+	border: 1px solid grey;
+	border-radius: 2px;
+	width: 100%;	
+	margin-bottom: 2%;
+	height: 84px;
+}
+
+/*input[type="email"] {
+	width:20%;	
+}*/
+
+#contact-form label {
+	width: 67%;
+	display: block;
+}
+
+#contact-form input.error { /* input boxes */
+	border: 1px solid magenta;
+}
+
+#contact-form label.error { /* text */
+	color: magenta;
+	margin-bottom: 1%;
+}
+
+#contact-form textarea.error {
+	color: magenta;
+	border: 1px solid magenta;
+}
+
+#contact-form button {
+	float: right;
+	padding: 2%;
+}
+
+#contact-form p#buttons {
+}
+
+fieldset {
+	border: none;
+}
+
+#first-name,
+#last-name,
+#email,
+#subject {
+	height: 28px;
+	margin-bottom: 1%;		
 }
 /*** END CONTACT / THANK YOU PAGES ***/
+
 
 #validation-icons a {
 	text-decoration: none;

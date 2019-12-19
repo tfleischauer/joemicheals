@@ -9,7 +9,7 @@
                     <p> Call or fax Joe at [206] 284.5482 </p><!--, <a href="http://facebook.com/joe.micheals">Facebook</a>-->
                   </address>
                     
-                  <h2 class="section-label max940px">Contact</h2>          
+                  <h3 class="section-label max940px">Message Joe</h3>          
                 
                   <fieldset>
                     <!--<legend><h2>Contact</h2></legend>-->
