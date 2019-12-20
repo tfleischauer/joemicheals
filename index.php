@@ -20,7 +20,7 @@
                             Your browser does not support the audio element. Download <a href="audio/Joe60Demo.mp3">60 Second Demo</a>
                         </audio> 
                         
-                        <p class="audio-caption">60 Second Demo</p>   
+                        <p class="audio-caption">Sixty-Second Demo</p>   
                         
                  </div> <!-- end audio-player -->
                      
@@ -32,7 +32,7 @@
                             Your browser does not support the audio element. Download <a href="audio/JoeMichealsDemo.mp3">Longer Demo</a>
                          </audio>
                         
-                        <p class="audio-caption">Two Minute Demo</p>
+                         <p class="audio-caption">Two Minute Demo</p>
                         
                  </div> <!-- end audio-player -->
             </div> <!-- end area310px -->           
