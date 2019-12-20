@@ -10,11 +10,9 @@
                   <address class="thankyou">
                       <p> Call or fax Joe at [206] 284.5482 </p>
                   </address> 
-                    
-                  <!--<h2 class="section-label max940px">Your message has been sent!</h2>-->
               
                   <fieldset>
-                    <!--<legend><h2>Contact</h2></legend>-->
+                    <legend><h4>Message Joe Again?</h4></legend>
                     <form id="contact-form" action="submit.php" method="post">
                      <div class="error">
                       <p>
@@ -55,24 +53,32 @@
                   <div id="result"></div>
                 
                 </div> <!-- end contact-joe -->
-                   
-                <div class="cashman-drawing">
-                    <img src="images/joeByCashman-front-500x746px.jpg" alt="Illustration of Joe Micheals by Pat Cashman" title="Illustration by Pat Cashman">
-                </div>
+                
+                <div class="flip-container" title="Illustration by Pat Cashman">   
+                    <div class="cashman-drawing">
+                        <div class="front-thankyou">
+                        	<!--Need a solution for img at text.-->
+                            <!--<img alt="Illustration of Joe Micheals by Pat Cashman">--> 
+                        </div>
+                        <div class="back-thankyou">
+                            <!-- back side content -->
+                        </div>
+                    </div>   <!-- end .cashman-drawing --> 
+                </div>	<!-- end .flipcontainer --> 
                  
               </div> <!-- end middle-contact --> 
 
 <?php /*?>Not using footer includes because this page has the Pat Cashman illustration credit.<?php */?>             
 <?php /*?><?php include("includes/footer.php"); ?><?php */?> 
 
-                <footer>
-                  <p><small>Joe Micheals illustrations by Pat Cashman</small></p>
-                  <script>
-                      var date = new Date();
-                      var year = date.getFullYear(); 
-                      document.write("<p>&copy; " + year + " Joe Micheals. All rights reserved.</p>");
-                  </script>
-                <footer>
+              <footer>
+                <p><small>Joe Micheals illustrations by Pat Cashman</small></p>
+                <script>
+                    var date = new Date();
+                    var year = date.getFullYear(); 
+                    document.write("<p>&copy; " + year + " Joe Micheals. &nbsp;All rights reserved.</p>");
+                </script>
+              <footer>
          
         </div> <!-- end wrapper -->
          

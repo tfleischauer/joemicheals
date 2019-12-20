@@ -7,12 +7,10 @@
                   
                   <address>
                     <p> Call or fax Joe at [206] 284.5482 </p><!--, <a href="http://facebook.com/joe.micheals">Facebook</a>-->
-                  </address>
-                    
-                  <h3 class="section-label max940px">Message Joe</h3>          
+                  </address>   
                 
                   <fieldset>
-                    <!--<legend><h2>Contact</h2></legend>-->
+                    <legend><h3>Message Joe</h3></legend>
                     <form id="contact-form" action="submit.php" method="post">
                      <div class="error">
                       <p>
@@ -51,12 +49,19 @@
                   <div id="result"></div>
                  
                 </div> <!-- end contact-joe -->
-                  
-                <div class="cashman-drawing">
-                      <img src="images/joeByCashman-back-500x651px-3.jpg" alt="Illustration of Joe Micheals by Pat Cashman" title="Illustration by Pat Cashman">
-                </div>
-
-			  </div> <!-- end middle-contact --> 
+                
+                <div class="flip-container" title="Illustration by Pat Cashman">   
+                    <div class="cashman-drawing">
+                        <div class="front-contact">
+                            <!-- front side content -->
+                        </div>
+                        <div class="back-contact">
+                            <!-- back side content -->
+                        </div>
+                    </div>   <!-- end .cashman-drawing --> 
+                </div>	<!-- end .flipcontainer --> 
+                 
+              </div> <!-- end middle-contact --> 
               
               <script src="js/jquery-2.1.1.min.js"></script>
     

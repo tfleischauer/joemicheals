@@ -427,16 +427,13 @@ address.thankyou {
 	width: 460px;
 }
 
-.cashman-drawing {
-	width: 310px;
-	float: right;
-	position: relative;
-	top: -19px;	
-}
-
 /*.z {
 	z-index: -10;	
 }*/
+
+fieldset {
+	border: none;
+}
 
 form {
 	font-size: 100%;	
@@ -454,10 +451,6 @@ textarea {
 	margin-bottom: 2%;
 	height: 84px;
 }
-
-/*input[type="email"] {
-	width:20%;	
-}*/
 
 #contact-form label {
 	width: 67%;
@@ -483,12 +476,8 @@ textarea {
 	padding: 2%;
 }
 
-#contact-form p#buttons {
-}
-
-fieldset {
-	border: none;
-}
+/*#contact-form p#buttons {
+}*/
 
 #first-name,
 #last-name,
@@ -497,8 +486,72 @@ fieldset {
 	height: 28px;
 	margin-bottom: 1%;		
 }
-/*** END CONTACT / THANK YOU PAGES ***/
 
+/** CASHMAN FLIP CARD **/
+.flip-container {
+	width: 310px;
+	float: right;
+	position: relative; /* relative to .middle-contact */
+	top: -19px;	/* position from top of .middle-contact div (lifts image higher) */
+	/* perspective determines the distance between the z=0 plane and the user 
+	in order to give a 3D-positioned element some perspective. */
+    perspective: 1000;
+    display: inline-block;
+}
+
+.flip-container:hover .cashman-drawing {
+	transform: rotateY(180deg);
+}
+
+.cashman-drawing, .front-contact, .back-contact, .front-thankyou, .back-thankyou {
+     width: 310px;
+     height: 463px;
+ }
+
+.cashman-drawing {
+	transition: 0.5s;
+	/* preserve-3d indicates that the children of the element should be positioned 
+	in the 3D-space. */
+    transform-style: preserve-3d;
+	/* allows front and back cards to be positioned relative to this div */
+    position: relative; 
+}
+
+.front-contact, .back-contact, .front-thankyou, .back-thankyou {
+	/* backface-visibility sets whether the back face of an element is visible when 
+	turned towards the user. The back face is hidden, effectively making the element 
+	invisible when turned away from the user. */
+    backface-visibility: hidden;
+	/* for positioning the front and back cards relative to the cashman-drawing div */
+    position: absolute; 
+}
+
+.front-contact {
+	z-index: 1;
+	transform: rotateY(180deg);
+	background: url("images/joeByCashman-front-310x463px.jpg") no-repeat;
+}
+
+.back-contact {
+	z-index: 2; /* back side, placed above front */
+	transform: rotateY(0deg);
+	background: url("images/joeByCashman-back-310x463px.jpg") no-repeat;
+}
+
+.front-thankyou {
+	z-index: 2; /* front side, placed above back */
+	transform: rotateY(0deg);
+	background: url("images/joeByCashman-front-310x463px.jpg") no-repeat;
+}
+
+.back-thankyou {
+	z-index: 1;
+	transform: rotateY(180deg);
+	background: url("images/joeByCashman-back-310x463px.jpg") no-repeat;
+}
+/** END CASHMAN FLIP CARD **/
+
+/*** END CONTACT / THANK YOU PAGES ***/
 
 #validation-icons a {
 	text-decoration: none;
