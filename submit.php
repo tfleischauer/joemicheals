@@ -13,8 +13,7 @@ function sendContactMail()
 
 	
 	// DreamHost email or gmail addresses send mail...
-	// $ToEmail = 'troy@troyfleischauer.com'; 
-	$ToEmail = 'joemicheals@comcast.com';
+	$ToEmail = 'joe@joemicheals.com';
 	
 	// Outlook and Hotmail do not allow form to send mail for some reason
 	// $ToEmail = 'tfleischauer@outlook.com'; 
@@ -29,7 +28,7 @@ function sendContactMail()
 	// $mailheader = "From: ".$_POST["email"]."\r\n"; 
 	
 	// DreamHost email address only when using 'From: ' on DreamHost, like so ... 
-	$mailheader = 'From: joemicheals.com-via-'.'troy@troyfleischauer.com'."\r\n";
+	$mailheader = 'From: joemicheals.com-via-'.'joe@joemicheals.com'."\r\n";
 
 	// without the period before the equal sign, emails received will be from
 	// trofle1@bluebeard.dreamhost.com instead of troy@troyfleischauer.com 
