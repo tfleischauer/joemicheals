@@ -2,11 +2,11 @@
 
 <div class="middle">
 
-	<h2><em>Voice-Over On-Camera</em></h2>
+	<h2>On-Camera</h2>
 
     <section>
       <h3>Evening Magazine</h3>
-        <div class="text-left">     
+         <div class="text-left">     
             <p>Evening Magazine 25th Anniversary story about Joe Micheals.</p>  
          </div> <!-- end text-left -->
     
@@ -39,21 +39,20 @@
     </section>
     
     <section>
-      <h3>King 5 Announcer</h3>
-        <div class="text-left">     
-            <p>I've been an announcer at King 5 since 1981.</p>  
-            <p>Here is a sample of some more recent V/Os.</p>
-         </div> <!-- end text-left -->
+      <h3>Almost Live! | Promo 1990</h3>
+        <div class="text-left"> 
+            <p>This promo for Almost Live! was filmed in my living room. - with John Keister.</p>
+        </div> <!-- end text-left -->
        
-         <div class="video-div">
+        <div class="video-div">
+       
+            <div class="iframe-wrapper">
+              <iframe class="iframe-embed" src="https://www.youtube.com/embed/YyaTcGNiFX4?ecver=2" allowfullscreen></iframe>
+            </div> <!-- end iframe wrapper --> 
+                 
+         <p class="small video-caption">Almost Live! | Promo 1990</p>
          
-              <div class="iframe-wrapper">
-                <iframe class="iframe-embed" src="https://www.youtube.com/embed/dAwKj6Ryppw" allowfullscreen></iframe>
-              </div> <!-- end iframe wrapper --> 
-                   
-           <p class="small video-caption">Montage of King 5 V/Os</p>
-           
-         </div> <!-- end video-div -->
+        </div> <!-- end video-div -->
     </section>
     
     <!--<section>            
@@ -81,10 +80,10 @@
           <div class="area460px">
             <h4>Theater</h4>
               <ul>
-                  <li class="disc">Two Gentlemen of Verona, Panthino (Seattle University)</li>
-                  <li class="disc">Curmudgeons, Junkard (Burien Little Theater)</li>
-                  <li class="disc">Two Tickets Christmas, Rev. Doyle (Praise Community Church)</li>
-                  <li class="disc">Seattle Coffee Christmas, Chris (Christian Faith Center)</li>
+                  <li>Two Gentlemen of Verona, Panthino (Seattle University)</li>
+                  <li>Curmudgeons, Junkard (Burien Little Theater)</li>
+                  <li>Two Tickets Christmas, Rev. Doyle (Praise Community Church)</li>
+                  <li>Seattle Coffee Christmas, Chris (Christian Faith Center)</li>
               </ul>            
                     
            <h4>Stand Up</h4>
@@ -98,9 +97,9 @@
          <h3>Training</h3>
             <div class="area460px">
                <ul>
-                  <li class="disc">Freehold (Actor)</li>
-                  <li class="disc">Richard Brestoff/Pat French (Film Acting)</li>
-                  <li class="disc">Pat Fraley</li>
+                  <li>Freehold (Actor)</li>
+                  <li>Richard Brestoff/Pat French (Film Acting)</li>
+                  <li>Pat Fraley</li>
                </ul>
             </div> <!-- end .area460px -->
     </section>
