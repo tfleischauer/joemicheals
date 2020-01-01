@@ -8,7 +8,7 @@
                   <h3>Your Message Has Been Sent. Thank You!</h3>
                   
                   <address class="thankyou">
-                      <p> Call or fax Joe at [206] 284.5482 </p>
+                      <p> Call Joe at [206] 284.5482 </p>
                   </address> 
               
                   <fieldset>

@@ -3,10 +3,10 @@
           	<div id="middle-contact">
          
                 <div id="contact-joe">
-                  <h2><em>Contact: Joe Micheals</em></h2>
+                  <h2>Contact: Joe Micheals</h2>
                   
                   <address>
-                    <p> Call or fax Joe at [206] 284.5482 </p><!--, <a href="http://facebook.com/joe.micheals">Facebook</a>-->
+                    <p>Call Joe at [206] 284.5482</p><!--, <a href="http://facebook.com/joe.micheals">Facebook</a>-->
                   </address>   
                 
                   <fieldset>
