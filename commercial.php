@@ -2,38 +2,51 @@
 
 <div class="middle">
 
-	<h2><em>Voice-Over Commercial &amp; Industrial</em></h2>
+	<h2>Commercial Voice-Over</h2>
     
     	<!--<div class="area460px">-->
-        <div class="commercial-left">
+        <div class="text-left">
                     
-          <h3>Commercial V/O</h3>
+          <h3>Commercials</h3>
+          	<p>I've done radio and television commercials for a variety of clients such as:</p>
               <ul>
-                <li>Azteca Restaurants</li>
-                <li>Car Toys</li>
-                <li>Costco</li>
-                <li>Nordstrom</li>
-                <li>Northwest Ford Dealers</li>
-                <li>Safeway</li>                    
+                  <li>Azteca Restaurants</li>
+                  <li>Car Toys</li>
+                  <li>Costco</li>
+                  <li>Nordstrom</li>
+                  <li>Northwest Ford Dealers</li>
+                  <li>Safeway</li>                    
               </ul>
                                  
-           <h3>Industrial V/O</h3>       
-              <ul>
-                  <li>Boeing</li>
-                  <li>Microsoft</li>
-                  <li>World Vision</li>
-              </ul>
          </div>
          
          <div class="video-div">
                  
-           <h3>Public Service V/O</h3>          
+           <h3>Acura of Lynnwood</h3>          
 
               <div class="iframe-wrapper">
-              	<iframe class="iframe-embed" src="//www.youtube.com/embed/lFFU1ICti2Q?feature=player_detailpage" allowfullscreen></iframe> <!-- frameborder="0" -->
+              	<iframe class="iframe-embed" src="https://www.youtube.com/embed/sOiR9l1EO-o" allowfullscreen></iframe> <!-- frameborder="0" -->
               </div> <!-- end iframe wrapper --> 
-                   
-           <p><small>Print and Industrial on-camera samples available on request.</small></p>
+           
+         </div>
+         
+         <div class="video-div">
+                 
+           <h3>Gutter Solutions NW</h3>          
+
+              <div class="iframe-wrapper">
+              	<iframe class="iframe-embed" src="https://www.youtube.com/embed/dr661pU9jr8" allowfullscreen></iframe> <!-- frameborder="0" -->
+              </div> <!-- end iframe wrapper --> 
+           
+         </div>
+         
+         <div class="video-div">
+                 
+           <h3>Boeing Classic</h3>          
+
+              <div class="iframe-wrapper">
+              	<iframe class="iframe-embed" src="https://www.youtube.com/embed/vxEYK919uII" allowfullscreen></iframe> <!-- frameborder="0" -->
+              </div> <!-- end iframe wrapper --> 
            
          </div>
          
