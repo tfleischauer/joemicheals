@@ -14,7 +14,7 @@ http://portfolio.troyfleischauer.com
 		<title>Joe Micheals | <?php include('includes/titles.php'); ?></title>
         <meta charset="UTF-8">
         <meta name="ROBOTS" content="INDEX, FOLLOW">
-        <meta name="description" content="Joe Micheals: Voice-Over the Northwest. Voice-over talent and air personality." />
+        <meta name="description" content="<?php include('includes/meta-page-descriptions.php'); ?>" />
         <meta name=viewport content="width=device-width, initial-scale=1"> 
         
         <!-- Remy Sharp Shim --> 
@@ -23,7 +23,8 @@ http://portfolio.troyfleischauer.com
 		<![endif]-->
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>            
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
+                 
     </head>
     
     <body>
