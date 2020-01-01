@@ -3,7 +3,7 @@
           	<div id="middle-contact">
          
                 <div id="contact-joe">
-                  <h2><em>Contact: Joe Micheals</em></h2>
+                  <h2>Contact: Joe Micheals</h2>
                   
                   <h3>Your Message Has Been Sent. Thank You!</h3>
                   
@@ -84,12 +84,19 @@
          
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
         <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <!-- form is for the ajax submit -->
         <script src="js/jquery.form.js"></script> 
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/myscript.js"></script> 
         <script src="js/formscript.js"></script> 
         <script src="js/less-1.7.0.min.js"></script>
+        
+        <script>
+			$(document).ready(function() {
+  				$('nav ul li:last-child').addClass('main-on');
+			});
+		</script>
              
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
