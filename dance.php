@@ -2,9 +2,9 @@
                       
 <div class="middle">
 
-	<h2><em>Voice Over Dance</em></h2>
+	<h2>Dance</h2>
   
-      <div class="area460px"> 
+      <div class="text-left"> 
         <p>I am traditional <a href="http://en.wikipedia.org/wiki/Contra_dance" target="_blank">Contra</a> dancer, caller, and musician.</p>
                   
         <h3>Caller</h3>
@@ -22,13 +22,20 @@
         <h3>Musician</h3>
     
         	<p>I also enjoy playing music as well as calling it. My instruments are acoustic guitar and bass. I play with a few bands in the northwest area primarily Red Crow, Swinging on a Star, and The Electrodes.</p>
+            
+             <p class="list-description"><em>Follow</em> The Electrodes:</p>
+             <ul> 
+                <li><a href="https://soundcloud.com/electrodesband" target="_blank">SoundCloud</a></li>
+                <li><a href="https://www.facebook.com/TheElectrodes" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCJZHvGEgdqHWoktuwxu0yYw" target="_blank">YouTube</a></li>
+             </ul>
       
-      </div> <!-- end area460px  -->
+    </div> <!-- end .text-left  -->
     
-    <div class="area310px">
-   
     
-    <h3>Audio</h3>
+    <div class="audio-video-div">   
+  
+      <h3>Audio</h3>
 
         <div class="audio-player audio-player-margin-top">
     
@@ -40,37 +47,30 @@
           <p class="audio-caption">The Electrodes - Drowsey Maggie</p>
         </div> <!-- end audio-player -->
     
-    <h3>Video</h3>
-            
-         <div> <!-- iframe-div -->
-              <div class="iframe-wrapper">
-                <iframe class="iframe-embed" src="https://www.youtube.com/embed/FeE15HUr6tg" allowfullscreen></iframe>
-  			  </div> <!-- end iframe wrapper --> 
-                   
-           <p class="video-caption-310px">The Electrodes - Grumblin' & Growlin'</p>
-           
-         </div> <!-- iframe-div -->
+      <h3>Video</h3>
+          
+       <div> <!-- iframe-div -->
+            <div class="iframe-wrapper">
+              <iframe class="iframe-embed" src="https://www.youtube.com/embed/FeE15HUr6tg" allowfullscreen></iframe>
+            </div> <!-- end iframe wrapper --> 
+                 
+         <p class="video-caption-310px">The Electrodes at Folklife 2015 - Grumbling & Growling</p>
          
-         <!-- 
-         <p class="list-description"><small><a href="https://www.facebook.com/TheElectrodes" target="_blank">The Electrodes</a>: </small></p>
-           
-            <ul> 
-                <li class="small">Joe Bowbeer... Fiddle</li> 
-                <li class="small">Marcy Kubbs... Piano</li>
-                <li class="small">Joe Micheals... Guitar</li>
-            </ul>
-         -->
+       </div> <!-- iframe-div -->
+       
+       <div> <!-- iframe-div -->
+            <div class="iframe-wrapper">
+              <iframe class="iframe-embed" src="https://www.youtube.com/embed/xI3aVPIOOn4" allowfullscreen></iframe>
+            </div> <!-- end iframe wrapper --> 
+                 
+         <p class="video-caption-310px">The Electrodes at Folklife 2016 - Paddy on the Landfill</p>
          
-           <p class="list-description"><em>Follow</em> The Electrodes:</p>
-             <ul> 
-                <li><a href="https://soundcloud.com/electrodesband" target="_blank">SoundCloud</a></li>
-                <li><a href="https://www.facebook.com/TheElectrodes" target="_blank">Facebook</a></li>
-                <li><a href="https://www.youtube.com/channel/UCJZHvGEgdqHWoktuwxu0yYw" target="_blank">YouTube</a></li>
-             </ul>
-                
-          </div> <!-- end area310px  --> 
-      </div> <!-- end class="middle" -->      
+       </div> <!-- iframe-div -->
+              
+    </div> <!-- end .audio-video-div  --> 
+    
+</div> <!-- end class="middle" -->      
                                
- <?php include("includes/footer.php");   ?>
+<?php include("includes/footer.php");   ?>
 
 
