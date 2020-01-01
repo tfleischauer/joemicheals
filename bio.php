@@ -2,7 +2,7 @@
                       
 <div class="bodyCopy">
   <!--<h1>Bio</h1>-->
-  <h2><em>About the Voice-Over Guy</em></h2>
+  <h2>About the Voice-Over Guy</h2>
   
   <div id="BroadcastProgramming">
   
