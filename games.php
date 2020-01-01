@@ -15,6 +15,10 @@
             <p>I really didn't know how the final voice would sound. The effect was quite surprising!  So are some of the <a href="http://www.youtube.com/watch?v=TE67EpU9u40" target="_blank">comments</a> on the blogsites.</p>
             
             <p>Surprisingly, there were a few fans who compiled the <abbr title="voice-overs">V/Os</abbr> of Announcer for Portal 2 and posted them to YouTube.</p>
+            
+      <h4>My Announcer Session</h4>
+            
+            <p>Valve News Network produced a couple videos that show the process of how my Announcer voice tracks were directed.</p>
                                    
             <p class="list-description">More Portal 2:</p>
             <ul>
@@ -32,6 +36,26 @@
             </div> <!-- end iframe wrapper --> 
                  
          <p><small>Compilation of 'Announcer' voice-overs that I recorded for Portal 2</small></p>
+         
+       </div> <!-- end video-div -->
+       
+       <div class="video-div">
+       
+            <div class="iframe-wrapper">
+              <iframe class="iframe-embed" src="https://www.youtube.com/embed/3uzvySs6yHo?ecver=2" allowfullscreen></iframe>
+            </div> <!-- end iframe wrapper --> 
+                 
+         <p><small>Unheard Portal Voice Files - How Valve Directs Voice Actors (with Joe Micheals)</small></p>
+         
+       </div> <!-- end video-div -->
+       
+       <div class="video-div">
+       
+            <div class="iframe-wrapper">
+              <iframe class="iframe-embed" src="https://www.youtube.com/embed/h7mu4JN_FOA?ecver=2" allowfullscreen></iframe>
+            </div> <!-- end iframe wrapper --> 
+                 
+         <p><small>More Beta Portal Voice Files - How Valve Directs Voice Actors (with Joe Micheals)</small></p>
          
        </div> <!-- end video-div -->
 </section>
