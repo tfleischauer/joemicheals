@@ -2,12 +2,12 @@
                       
                 <div class="middle">
                 	
-                    <h2><em>Voice-Over Imaging</em></h2> 
+                    <h2>Imaging Voice-Over</h2> 
                   
             		
                 	 <div class="area460px">
                           
-                      <p>I'm currently doing imaging and promotion across the country for Westwood One.</p> 
+                      <p>I'm currently doing <a href="https://en.wikipedia.org/wiki/Radio_imaging" target="_blank">radio imaging</a> [branding] and promotion across the country for Westwood One.</p> 
                       
                       <p>My resume includes WPAT in the New York market, the CBS station in Los Angeles, and stations from Texas to Wisconsin, as well as in my home state of Washington at Spirit 105.3 in Seattle, KOZI 93.5 Community Radio in Chelan, and KOOL 107.1 in Spokane.</p> <!--a CBS affiliate in Los Angeles-->
                       
