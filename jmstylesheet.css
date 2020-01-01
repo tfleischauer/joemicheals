@@ -64,6 +64,10 @@ h3 {
 	margin: .2em 0 .5em 0;
 }
 
+ul > h3 {
+	margin: 15px 0 0 0;	
+}
+
 h4 {
 	margin: .2em 0 .3em 0;	
 }
@@ -73,8 +77,8 @@ p, ol, ul, dl { /* dl - definition lst */
 }
 
 ul {
-	text-decoration: none;
-	list-style-type: none;
+	/*text-decoration: none;*/
+	list-style-type: disc;
 	list-style-position: inside; /* list item markers will appear inside the document flow */
 	padding-left: 0;	
 	margin-bottom: 0;
@@ -148,6 +152,10 @@ section {
 	overflow: hidden;
 	clear: both;
 	margin-bottom: 15px;		
+}
+
+.add-margin-top {
+	margin: 25px 0 0 0;	
 }
 /*** END GLOBAL STYLES ***/
 
@@ -316,7 +324,7 @@ a#nintendoImage:hover {
 
 /*** AUDIO PLAYER EMBED ***/
 audio {
-	max-width: 100%;
+	width: 100%;
 }
 
 /* on imaging page */
@@ -332,7 +340,18 @@ audio {
 .audio-player {
 	margin-bottom: 20px;
 	margin-left: .2em;	
+	/*width: 550px;*/
 }
+
+/*.audio-player-310 {
+	margin-bottom: 20px;
+	margin-left: .2em;	
+	width: 310px;
+}
+
+.audio-player-310 > audio {
+	width: 306px;	
+}*/
 
 /* adds border under audio player */
 .border-bottom {
@@ -343,6 +362,15 @@ audio {
 /*** END AUDIO PLAYER EMBED ***/
 
 /*** IFRAME ***/
+.audio-video-div {
+	width: 550px;
+	float: right;
+}
+
+.audio-video-div audio {
+	width: 100%;
+}
+
 .video-div {
 	width: 550px;
 	float: right;
