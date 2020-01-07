@@ -3,54 +3,54 @@
           <div class="middle">
           	<h2>Voice-Over Home</h2>
             
-           <div class="text-left">
+           <div class="four-of-twelve-columns-left">
            
 			  <h3>Welcome</h3>
               
               <p>I am a freelance voice-over artist in Seattle.</p> 
               <p>If you would like an audition for your project please <a href="mailto:joemicheals@comcast.net">e-mail</a> your script to joemicheals at comcast.net.</p> 
-              <p>I will return a voice sample at my earliest opportunity. Or reach me by phone or fax at [206] 284.5482.</p><!--<a href="mail.html" onmouseover="this.href='mai' + 'lto:' + 'joemicheals' +  '@' + 'comcast.net'">-->
+              <p>I will return a voice sample at my earliest opportunity. Or reach me by phone at [206] 284.5482.</p><!--<a href="mail.html" onmouseover="this.href='mai' + 'lto:' + 'joemicheals' +  '@' + 'comcast.net'">-->
 
-            </div> <!-- end area460px -->
+            </div> <!-- end .four-of-twelve-columns-left -->
               
-            <div class="audio-video-div">
+            <div class="eight-of-twelve-columns-right audio-player">
             	 <h3>Demos</h3>
                  
-                 <div class="audio-player audio-player-margin-top">
-                                    
+                 <div class="audio-player-margin-top">
+                        <h4>Sixty-Second Demo</h4>            
                         <audio controls> 
                             <source src="audio/Joe60Demo.mp3" type="audio/mpeg">
                             <source src="audio/Joe60Demo.ogg" type="audio/ogg">
                             Your browser does not support the audio element. Download <a href="audio/Joe60Demo.mp3">60 Second Demo</a>
                         </audio> 
                         
-                        <p class="audio-caption">Sixty-Second Demo</p>   
+                        <!--<p class="audio-caption">Sixty-Second Demo</p> -->  
                         
-                 </div> <!-- end audio-player -->
+                 </div> <!-- end .audio-player-margin-top -->
                      
                  <div class="audio-player">
-                        
+                         <h4>Two-Minute Demo</h4> 
                          <audio controls> 
                             <source src="audio/JoeMichealsDemo.mp3" type="audio/mpeg">
                             <source src="audio/JoeMichealsDemo.ogg" type="audio/ogg">
                             Your browser does not support the audio element. Download <a href="audio/JoeMichealsDemo.mp3">Longer Demo</a>
                          </audio>
                         
-                         <p class="audio-caption">Two Minute Demo</p>
+                         <!--<p class="audio-caption">Two Minute Demo</p>-->
                         
-                 </div> <!-- end audio-player -->
+                 </div> <!-- end .audio-player -->
             
-                <div class="video-div">     
-        
+                <div>     
+        		      <h4>King 5 Voice-overs</h4>		
                       <div class="iframe-wrapper">
                         <iframe class="iframe-embed" src="https://www.youtube.com/embed/dAwKj6Ryppw" allowfullscreen></iframe> <!-- frameborder="0" -->
                       </div> <!-- end iframe wrapper --> 
                            
-                      <!--<p class="audio-caption">Here is a sample of my King 5 voice-overs. I was the announcer at King 5 from 1981 to 2017.</p>-->
+                      <!--<p class="audio-caption">King 5 Voice-overs</p>-->
                
                 </div>  
                 
-            </div> <!-- end audio-video-div -->         
+            </div> <!-- end .eight-of-twelve-columns-right -->         
               
          </div> <!-- end middle-home -->
          

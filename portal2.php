@@ -8,7 +8,7 @@
   
       <h3>Announcer</h3>
       
-      <div class="text-left">
+      <div class="four-of-twelve-columns-left">
                 
             <p>The recording sessions for <em>Portal 2</em> were great fun.  1 bit of direction was to <q cite="http://www.thinkwithportals.com/">make it sound like you were the announcer for a ride at Disneyland!</q></p>  
             
@@ -27,37 +27,37 @@
                 <li><a href="http://www.thinkwithportals.com/" target="_blank">Official Portal 2 Website</a></li>
             </ul>
             
-       </div> <!-- end text-left -->
+       </div> <!-- end .four-of-twelve-columns-left -->
        
-       <div class="video-div">
+       <div class="eight-of-twelve-columns-right">
        
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="//www.youtube.com/embed/S1YzIMpDBbQ" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p><small>Compilation of 'Announcer' voice-overs that I recorded for Portal 2</small></p>
+         <p class="video-caption-small">Compilation of 'Announcer' voice-overs that I recorded for Portal 2</p>
          
-       </div> <!-- end video-div -->
+       </div> <!-- end .eight-of-twelve-columns-right -->
        
-       <div class="video-div">
+       <div class="eight-of-twelve-columns-right">
        
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/3uzvySs6yHo?ecver=2" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p><small>Unheard Portal Voice Files - How Valve Directs Voice Actors (with Joe Micheals)</small></p>
+         <p class="video-caption-small">Unheard Portal Voice Files - How Valve Directs Voice Actors (with Joe Micheals)</small></p>
          
-       </div> <!-- end video-div -->
+       </div> <!-- .eight-of-twelve-columns-right -->
        
-       <div class="video-div">
+       <div class="eight-of-twelve-columns-right">
        
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/h7mu4JN_FOA?ecver=2" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p><small>More Beta Portal Voice Files - How Valve Directs Voice Actors (with Joe Micheals)</small></p>
+         <p class="video-caption-small">More Beta Portal Voice Files - How Valve Directs Voice Actors (with Joe Micheals)</small></p>
          
-       </div> <!-- end video-div -->
+       </div> <!-- end .eight-of-twelve-columns-right -->
 </section>
 
 <section>
@@ -65,22 +65,22 @@
       <h3>Anti-Hero</h3>
       <h4>Voice of The City</h4>
       
-      <div class="text-left">
+      <div class="four-of-twelve-columns-left">
                 
             <p>Another voice actor role that I do is Voice of The City for this online original comic series.</p>
             
-       </div> <!-- end text-left -->
+      </div> <!-- end .four-of-twelve-columns-left -->
        
        
-       <div class="video-div">
+      <div class="eight-of-twelve-columns-right">
        
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/qmmouuBlWTk" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p><small>Anti-Hero Episode 1: Origin Story</small></p>
-         
-       </div> <!-- end video-div -->
+         <p class="video-caption-small">Anti-Hero Episode 1: Origin Story</small></p>
+      </div> <!-- end .four-of-twelve-columns-left -->
+      
 </section>
 
 </div> <!-- end middle -->
