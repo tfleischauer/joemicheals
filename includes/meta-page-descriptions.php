@@ -4,9 +4,9 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 if ($page == 'index.php') { print 'Joe Micheals: Voice-Over the Northwest. Voice-over talent and air personality.'; }
 
-if ($page == 'commercial.php') { print 'Joe Micheals: voice-over talent for television and radio commercials.'; }
+if ($page == 'commercial.php') { print 'Joe Micheals: Voice-over talent for television and radio commercials.'; }
 
-if ($page == 'industrial.php') { print 'Joe Micheals: voice-over talent for industrial (instructional) media.'; }
+if ($page == 'industrial.php') { print 'Joe Micheals: Voice-over talent for industrial (instructional) media.'; }
 
 if ($page == 'imaging.php') { print 'Joe Micheals: Imaging (branding) voice-overs for television and radio.'; }
 
