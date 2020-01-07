@@ -4,11 +4,11 @@
 
 	<h2>Commercial Voice-Over</h2>
     
-    	<!--<div class="area460px">-->
-        <div class="text-left">
+        <div class="four-of-twelve-columns-left">
                     
           <h3>Commercials</h3>
-          	<p>I've done radio and television commercials for a variety of clients such as:</p>
+          	<p>I do radio and television commercials for a variety of industries.</p>
+            <p>Clients include:</p>
               <ul>
                   <li>Azteca Restaurants</li>
                   <li>Car Toys</li>
@@ -18,9 +18,9 @@
                   <li>Safeway</li>                    
               </ul>
                                  
-         </div>
+         </div> <!-- end .four-of-twelve-columns-left -->
          
-         <div class="video-div">
+         <div class="eight-of-twelve-columns-right">
                  
            <h3>Acura of Lynnwood</h3>          
 
@@ -28,9 +28,19 @@
               	<iframe class="iframe-embed" src="https://www.youtube.com/embed/sOiR9l1EO-o" allowfullscreen></iframe> <!-- frameborder="0" -->
               </div> <!-- end iframe wrapper --> 
            
-         </div>
+         </div> <!-- end .eight-of-twelve-columns-right -->
          
-         <div class="video-div">
+         <div class="eight-of-twelve-columns-right">
+                 
+           <h3>Rich's</h3>          
+
+              <div class="iframe-wrapper">
+              	<iframe class="iframe-embed" src="https://www.youtube.com/embed/faRCHz3KHQ0" allowfullscreen></iframe> <!-- frameborder="0" -->
+              </div> <!-- end iframe wrapper --> 
+           
+         </div> <!-- end .eight-of-twelve-columns-right -->
+         
+         <div class="eight-of-twelve-columns-right">
                  
            <h3>Gutter Solutions NW</h3>          
 
@@ -38,9 +48,9 @@
               	<iframe class="iframe-embed" src="https://www.youtube.com/embed/dr661pU9jr8" allowfullscreen></iframe> <!-- frameborder="0" -->
               </div> <!-- end iframe wrapper --> 
            
-         </div>
+         </div> <!-- end .eight-of-twelve-columns-right -->
          
-         <div class="video-div">
+         <div class="eight-of-twelve-columns-right">
                  
            <h3>Boeing Classic</h3>          
 
@@ -48,7 +58,7 @@
               	<iframe class="iframe-embed" src="https://www.youtube.com/embed/vxEYK919uII" allowfullscreen></iframe> <!-- frameborder="0" -->
               </div> <!-- end iframe wrapper --> 
            
-         </div>
+         </div> <!-- end .eight-of-twelve-columns-right -->
          
 </div> <!-- end middle -->
         
