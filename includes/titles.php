@@ -4,11 +4,13 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 if ($page == 'index.php') { print 'Home'; }
 
-if ($page == 'commercial.php') { print 'Commercial &amp; Industrial'; }
+if ($page == 'commercial.php') { print 'Commercial'; }
 
-if ($page == 'games.php') { print 'Video Games'; }
+if ($page == 'industrial.php') { print 'Industrial'; }
 
 if ($page == 'imaging.php') { print 'Imaging'; }
+
+if ($page == 'portal2.php') { print 'Portal 2'; }
 
 if ($page == 'on-camera.php') { print 'On-Camera'; }
 
