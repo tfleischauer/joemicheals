@@ -23,8 +23,7 @@ http://portfolio.troyfleischauer.com
 		<![endif]-->
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
-                 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,400i,700,700i&display=swap" rel="stylesheet">   
     </head>
     
     <body>
