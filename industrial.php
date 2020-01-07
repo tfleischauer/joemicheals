@@ -1,72 +1,77 @@
 <?php include('includes/header.php'); ?>
 
-<div class="middle">
-
-	<h2>Industrial Voice-Over</h2>
-    
-        <div class="area460px">
-                                 
-           <h3>Internal Training</h3> 
-           	<p>I’ve narrated internal instructional and training videos for a variety of clients such as:</p>      
-              <ul>
-                  <li>Boeing</li>
-                  <li>Genie</li>
-                  <li>McCaw Cellular Communications</li>
-                  <li>Microsoft</li>
-                  <li>PACCAR</li>
-                  <li>Tel-Med</li>
-                  <li>Weyerhaeuser</li>
-                  <li>World Vision</li>
-              </ul>
-              
-         </div>
-         
-         
-         <div class="area310px">
+      <div class="middle">
+      
+          <h2>Industrial Voice-Over</h2>
+          
+              <div class="four-of-twelve-columns-left">
+                                       
+                 <h3>Internal</h3> 
+                  <p>I narrate internal-facing videos for manufacturing processes, employee instruction, technical training, and procedures.</p>
+                  <p>Clients include:</p>    
+                    <ul class="add-margin-bottom">
+                        <li>Boeing</li>
+                        <li>Genie</li>
+                        <li>Microsoft</li>
+                        <li>PACCAR</li>
+                        <li>Weyerhaeuser</li>
+                        <li>World Vision</li>
+                    </ul>
                     
-             <!--<h3>Audio</h3>           
-	                
-              <div class="audio-player-310 audio-player-margin-top">
-                  
-                  <audio controls>  
-                    <source src="audio/JoeMichealsSpirit10532010Promos.mp3" type="audio/mpeg">
-                    <source src="audio/JoeMichealsSpirit10532010Promos.ogg" type="audio/ogg">
-                    Your browser does not support the audio element. Download <a href="../audio/JoeMichealsSpirit10532010Promos.mp3">Weyerhaeuser Demo</a>
-                  </audio> 
-                  <p class="audio-caption">Weyerhaeuser</p>
+                                       
+                 <h3>Public</h3> 
+                  <p>I also narrate public-facing content such as automated phone systems and safety and instructional material.</p>
+                  <p>Clients include:</p>      
+                    <ul>
+                        <li>McCaw Cellular Communications</li>
+                        <li>Nintendo</li>
+                        <li>On-Hold Concepts</li>
+                        <li>SINTR</li>
+                        <li>Tel-Med</li>
+                    </ul>
                     
-              </div>--> <!-- end audio-player -->
-              
-             <!-- <div class="border-bottom"></div>-->
-              
-          </div> <!-- area310px -->  
-          
-          <section>         
-       
-      <h3 class="add-margin-top">External Training</h3>
-      <h4 class="add-margin-top">Personal Trainer: Cooking - DS Chef (Nintendo)</h4>
-       
-      <div class="area460px">
-                
-          <p><em>Personal Trainer: Cooking</em> was produced for <a href="http://www.nintendo.com/ds" target="_blank">Nintendo DS</a>, and as the name implies, it is interactive instructional software for preparing recipes that is accessible through a portable device.</p>
-          <p>I did the instructional voice work to guide the user through preparing each dish.</p>
-          
-          <!--<p class="list-description">More Personal Trainer: Cooking</p>
-          
-          <ul>
-                <li><a href="http://personaltrainercooking.com/features/index.html#features-ds-chef" target="_blank">Official Site</a></li>
-                <li><a href="http://www.nintendo.com/games/detail/0GH0z7XuqgMVHravefY0EVUR_xzNIXa7" target="_blank">Nintendo Games</a></li>
-          </ul>-->
-            
-      </div> <!-- end text-left -->
-       
-      <div class="area310px">
-         <a id="nintendoImage" href="http://personaltrainercooking.com" target="_blank"> <img src="images/Personal_Trainer_Cooking_310x281px-white.png" alt="Personal Trainer: Cooking (Nintendo)" /></a>       
-          <!--<p><small>Personal Trainer: Cooking (Nintendo)</small></p>-->       
-      </div> <!-- end video-div -->
-                
-	</section>
-         
-</div> <!-- end middle -->
+               </div> <!-- end .four-of-twelve-columns-left -->
+               
+               
+               <div class="eight-of-twelve-columns-right">
+                          
+                   <!--<h3>Audio</h3>           
+                          
+                    <div class="audio-player-310 audio-player-margin-top">
+                        
+                        <audio controls>  
+                          <source src="audio/JoeMichealsSpirit10532010Promos.mp3" type="audio/mpeg">
+                          <source src="audio/JoeMichealsSpirit10532010Promos.ogg" type="audio/ogg">
+                          Your browser does not support the audio element. Download <a href="../audio/JoeMichealsSpirit10532010Promos.mp3">Weyerhaeuser Demo</a>
+                        </audio> 
+                        <p class="audio-caption">Weyerhaeuser</p>
+                          
+                    </div>--> <!-- end audio-player -->
+                   
+                   <h3>Video</h3>
+                   
+                   <h4>Outside Magazine (SINTR)</h4>       
+                   <div> <!-- iframe-div -->
+                      <div class="iframe-wrapper">
+                        <iframe class="iframe-embed" src="https://player.vimeo.com/video/199177141" allowfullscreen></iframe>
+                      </div> <!-- end iframe wrapper --> 
+                           
+                   <p class="video-caption-small">Two Essential Backcountry Safety Lessons</p>
+                   
+                   </div> <!-- iframe-div -->
+                   
+                   <h4>Personal Trainer: Cooking (Nintendo)</h4>
+                   <div> <!-- iframe-div -->
+                      <div class="iframe-wrapper">
+                        <iframe class="iframe-embed" src="https://www.youtube.com/embed/7swJsSF95Xg" allowfullscreen></iframe>
+                      </div> <!-- end iframe wrapper --> 
+                           
+                   <p class="video-caption-small"><a href="https://en.wikipedia.org/wiki/Cooking_Guide:_Can%27t_Decide_What_to_Eat%3F" target="_blank">Personal Trainer: Cooking</a> was produced for <a href="http://www.nintendo.com/ds" target="_blank">Nintendo DS</a></p>
+                   
+                   </div> <!-- iframe-div -->
+                    
+               </div> <!-- end .eight-of-twelve-columns-right  --> 
+               
+      </div> <!-- end middle -->
         
 <?php include("includes/footer.php");   ?>
