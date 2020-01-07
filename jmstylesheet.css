@@ -16,26 +16,26 @@ body, body * {
 html  {
 	/* Gradient solution from Duckett p.419 2011 */
 	/* fallback color */
-	background-color: #6F848D;
+	background-color: #FFCB39;
 	/* background-color:#f1f1f1; */ /* off white to contrast white wrapper color */
 	/* fallback image */
 	background-image: url('images/gradientBackGround1_20x500.png'); 
 	background-repeat: repeat-x;
 	/* Firefox 3.6+ */
-	background-image: -moz-linear-gradient(#01161E, #DCF1FB);
+	background-image: -moz-linear-gradient(#FFD152, #FFCB39);
 	/* Safari 4+, Chrome 1+ */
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#01161E), to(#DCF1FB));
-	/* Safari 5.1+, Chrome 10+ */
-	background-image: -webkit-linear-gradient(#01161E, #DCF1FB); 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFD152), to(#FFCB39));
+	/* Safari 5.1+, Chrome 10+ */ 
+	background-image: -webkit-linear-gradient(#FFD152, #FFCB39);
 	/* Opera 11.10+ */
-	background-image: -o-linear-gradient(#01161E, #DCF1FB);
+	background-image: -o-linear-gradient(#FFD152, #FFCB39);
 	height: 100%;
 	/* This rule is the money, and not in Duckett CSS3: Gradients */
 	background-attachment: fixed;	
 }
 
 body {
-	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Open Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	font-size: 100%; 
 	color: #000;
 	line-height: 1.5;
@@ -54,14 +54,18 @@ a img {
 	border: none; /* Gets rid of blue border that IE puts around linked images */	
 }
 
-h1 { }
+h1 { 
+	font-family: Roboto, "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+}
 
 h2 {
 	margin: 0 0 .9em 0;
+	font-family: Roboto, "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 }
 
 h3 { 
 	margin: .2em 0 .5em 0;
+	font-family: Roboto, "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 }
 
 ul > h3 {
@@ -69,7 +73,8 @@ ul > h3 {
 }
 
 h4 {
-	margin: .2em 0 .3em 0;	
+	margin: .2em 0 .3em 0;
+	font-family: Roboto, "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;	
 }
 
 p, ol, ul, dl { /* dl - definition lst */
@@ -157,12 +162,17 @@ section {
 .add-margin-top {
 	margin: 25px 0 0 0;	
 }
+
+.add-margin-bottom {
+	margin: 0 0 25px 0;	
+}
 /*** END GLOBAL STYLES ***/
 
 /*** HEADER ***/
 header {
 	position: relative;
 	margin-bottom: 5px;
+	background-color: #FF972B;
 }
 
 header img {
@@ -257,15 +267,15 @@ nav ul li.main-on a {
 #wrapper {
 	background-color: #fff;
 	width: 860px;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	margin-right: auto;
 	margin-bottom: 25px;
 	margin-left: auto;
 	/* padding: 0em 1.1em .25em 1.1em; */
-	border-radius: 9px; /* Rounded corners */
-	-moz-border-radius: 9px; /* Rounded corners in old versions of mozilla */
-	-webkit-border-radius: 9px; /* Rounded corners in old versions of Safari and Chrome */
-	box-shadow: 3px 4px 3px #666; /* horizontal, vertical, blur, color */
+	/*border-radius: 9px;*/ /* Rounded corners */
+	/*-moz-border-radius: 9px;*/ /* Rounded corners in old versions of mozilla */
+	-/*webkit-border-radius: 9px;*/ /* Rounded corners in old versions of Safari and Chrome */
+	/*box-shadow: 3px 4px 3px #666;*/ /* horizontal, vertical, blur, color */
 }
 
 .bodyCopy {	
@@ -290,25 +300,24 @@ nav ul li.main-on a {
 	padding-right: 20px;
 }
 
-.area460px {
-	width: 460px;
+.four-of-twelve-columns-left {
+	width: 260px;
 	float: left;	
 }
 
-.area310px {
-	width: 310px;
-	float: right;
+.four-of-twelve-columns-right {
+	width: 260px;
+	float: right;	
 }
 
-.commercial-left {
-	width: 270px;
-	float: left;	
+.eight-of-twelve-columns-left {
+	width: 540px;	
+	float: left;
 }
 
-.text-left {
-	width: 250px;
-	float: left;	
-	padding-right: 20px;
+.eight-of-twelve-columns-right {
+	width: 540px;
+	float: right;	
 }
 
 #nintendoImage {
@@ -327,56 +336,36 @@ audio {
 	width: 100%;
 }
 
-/* on imaging page */
-.audio-caption {
-	font-size: .9em;
-}
-
 /* adds margin between audio player and h3 above */
 .audio-player-margin-top {
 	margin-top: 20px;	
 }
 
 .audio-player {
-	margin-bottom: 20px;
-	margin-left: .2em;	
-	/*width: 550px;*/
+	margin-bottom: 25px;	
 }
 
-/*.audio-player-310 {
-	margin-bottom: 20px;
-	margin-left: .2em;	
-	width: 310px;
+.audio-caption {
+	font-size: .8em;
+	margin: 5px 0 15px 0;
 }
-
-.audio-player-310 > audio {
-	width: 306px;	
-}*/
 
 /* adds border under audio player */
 .border-bottom {
 	border-bottom: 1px solid #000;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	width: 98%;
 }
 /*** END AUDIO PLAYER EMBED ***/
 
 /*** IFRAME ***/
-.audio-video-div {
-	width: 550px;
-	float: right;
-}
-
-.audio-video-div audio {
+.eight-of-twelve-columns-left audio,
+.eight-of-twelve-columns-right audio {
 	width: 100%;
 }
 
-.video-div {
-	width: 550px;
-	float: right;
-}
-
-.video-div .iframe-wrapper {
+.eight-of-twelve-columns-left .iframe-wrapper,
+.eight-of-twelve-columns-right .iframe-wrapper {
 	margin-bottom: 15px;	
 }
 
@@ -398,49 +387,38 @@ iframe {
 	border: 0;
 }
 
-.video-caption {
-	padding-top: 0;
-	margin-top: 0;	
-}
-
-.video-caption-310px {
-	margin-top: 8px;
-	font-size: .9em;	
+.video-caption-small {
+	font-size: .8em;
+	margin: 0 0 25px 0;	
 }
 /*** END IFRAME ***/
 
 /*** BIO PAGE ***/
-img.hoveringicon {
-	float: left;
-	margin-right: 1em;
-	width: 150px;
-	clear: right;
-}
-
-#BroadcastProgramming {
-	overflow: hidden;
-	/*border:2px solid black;*/	
-}
-
-#Joe1 {
-	/*float:right;*/
+/* div containing image and paragrapghs */
+#Bio-1 {
 	clear: left;
-	/*border: 2px solid black;*/
 	overflow: hidden;
-	margin: 1em 1em 1em 0;
 }
 
-img.hoveringRIGHTimage {
-	float: right;
-	margin-left: 1em;
-	width: 150px;	
+#Bio-2 {
+	clear: left;
+	overflow: hidden;
+	margin: 0 0 15px 0;
+}
+
+img.Joe-Left {
+	float: left;
+	clear: right;
+	/*border: 3px solid black;*/
+	margin: 0 20px 0 0;
 }
 
 #SeattleTimes {
-	/*float:right;*/
-	clear: left;
-	/*border: 2px solid black;*/
+	clear: both;
 	overflow: hidden;
+	/*background-color: lightgrey;*/
+	background-color: #fff3d3; /* shade of #FFCB39 */
+	padding: 15px 0 15px 0;
 }
 /*** END BIO PAGE ***/
 
@@ -452,7 +430,7 @@ address.thankyou {
 #contact-joe {
 	float: left;
 	margin-bottom: 25px;
-	width: 460px;
+	width: 400px; /* six of twelve columns */
 }
 
 /*.z {
@@ -517,7 +495,7 @@ textarea {
 
 /** CASHMAN FLIP CARD **/
 .flip-container {
-	width: 310px;
+	width: 400px; /* six of twelve columns */
 	float: right;
 	position: relative; /* relative to .middle-contact */
 	top: -19px;	/* position from top of .middle-contact div (lifts image higher) */
@@ -532,8 +510,8 @@ textarea {
 }
 
 .cashman-drawing, .front-contact, .back-contact, .front-thankyou, .back-thankyou {
-     width: 310px;
-     height: 463px;
+     width: 400px;
+     height: 597px;
  }
 
 .cashman-drawing {
@@ -557,25 +535,25 @@ textarea {
 .front-contact {
 	z-index: 1;
 	transform: rotateY(180deg);
-	background: url("images/joeByCashman-front-310x463px.jpg") no-repeat;
+	background: url("images/joeByCashman-front-400x597px.jpg") no-repeat;
 }
 
 .back-contact {
 	z-index: 2; /* back side, placed above front */
 	transform: rotateY(0deg);
-	background: url("images/joeByCashman-back-310x463px.jpg") no-repeat;
+	background: url("images/joeByCashman-back-400x597px.jpg") no-repeat;
 }
 
 .front-thankyou {
 	z-index: 2; /* front side, placed above back */
 	transform: rotateY(0deg);
-	background: url("images/joeByCashman-front-310x463px.jpg") no-repeat;
+	background: url("images/joeByCashman-front-400x597px.jpg") no-repeat;
 }
 
 .back-thankyou {
 	z-index: 1;
 	transform: rotateY(180deg);
-	background: url("images/joeByCashman-back-310x463px.jpg") no-repeat;
+	background: url("images/joeByCashman-back-400x597px.jpg") no-repeat;
 }
 /** END CASHMAN FLIP CARD **/
 
@@ -586,3 +564,4 @@ textarea {
 	background-color: transparent;
 	border-bottom: none;	
 }
+
