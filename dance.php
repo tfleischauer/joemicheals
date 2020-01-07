@@ -4,7 +4,10 @@
 
 	<h2>Dance</h2>
   
-      <div class="text-left"> 
+      <div class="four-of-twelve-columns-left"> 
+      
+      	<h3>Contra Dance</h3>
+        
         <p>I am traditional <a href="http://en.wikipedia.org/wiki/Contra_dance" target="_blank">Contra</a> dancer, caller, and musician.</p>
                   
         <h3>Caller</h3>
@@ -30,44 +33,46 @@
                 <li><a href="https://www.youtube.com/channel/UCJZHvGEgdqHWoktuwxu0yYw" target="_blank">YouTube</a></li>
              </ul>
       
-    </div> <!-- end .text-left  -->
+    </div> <!-- end .four-of-twelve-columns-left  -->
     
     
-    <div class="audio-video-div">   
+    <div class="eight-of-twelve-columns-right">   
   
       <h3>Audio</h3>
 
         <div class="audio-player audio-player-margin-top">
-    
+    	  <h4>Drowsey Maggie - The Electrodes</h4>	
           <audio controls>
             <source src="audio/Drowsy-Maggie-June-2015.mp3" type="audio/mpeg">
             <source src="audio/Drowsy-Maggie-June-2015.ogg" type="audio/ogg">
             Your browser does not support the audio element.
           </audio>
-          <p class="audio-caption">The Electrodes - Drowsey Maggie</p>
+          <!--<p class="audio-caption"></p>-->
         </div> <!-- end audio-player -->
     
       <h3>Video</h3>
-          
+       
+       <h4>Grumbling & Growling - The Electrodes</h4>   
        <div> <!-- iframe-div -->
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/FeE15HUr6tg" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p class="video-caption-310px">The Electrodes at Folklife 2015 - Grumbling & Growling</p>
+         <p class="video-caption-small">The Electrodes at Folklife 2015</p>
          
        </div> <!-- iframe-div -->
        
+       <h4>Paddy on the Landfill - The Electrodes</h4>
        <div> <!-- iframe-div -->
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/xI3aVPIOOn4" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
                  
-         <p class="video-caption-310px">The Electrodes at Folklife 2016 - Paddy on the Landfill</p>
+         <p class="video-caption-small">The Electrodes at Folklife 2016</p>
          
        </div> <!-- iframe-div -->
               
-    </div> <!-- end .audio-video-div  --> 
+    </div> <!-- end .eight-of-twelve-columns-right  --> 
     
 </div> <!-- end class="middle" -->      
                                
