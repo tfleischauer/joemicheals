@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?> 
                       
-<div class="bodyCopy">
+<div class="middle">
 
   <h2>About the Voice-Over Guy</h2>
   
