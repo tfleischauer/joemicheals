@@ -2,8 +2,8 @@
 
             <!-- Begin Navigation"  id="navigation-items-->
             <div class="navicon-container">
-        <span class="nav-button"></span> MENU
-      </div>
+        		<span class="nav-button"></span> MENU
+      		</div>
             <nav> 
                 <ul class="myMenu">
                     <li<?php if ($page == 'index.php' ) { print ' class="main-on"'; } ?>><a href="index.php" class="first">Home</a></li>
