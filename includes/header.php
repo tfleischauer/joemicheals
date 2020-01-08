@@ -9,8 +9,7 @@ http://portfolio.troyfleischauer.com
 
 -->
 
-<html id="top">
-    <head>
+<html id="top"><head>
 		<title>Joe Micheals | <?php include('includes/titles.php'); ?></title>
         <meta charset="UTF-8">
         <meta name="ROBOTS" content="INDEX, FOLLOW">
@@ -21,35 +20,9 @@ http://portfolio.troyfleischauer.com
 		<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> 
 		<![endif]-->
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <script>
-      $(document).ready(function() {
-        $('ul.myMenu > li').on('mouseover', openSubMenu);
-        $('ul.myMenu > li').on('mouseout', closeSubMenu);
-
-        function openSubMenu() {
-          $(this).find('ul').css('visibility', 'visible');
-        };
-
-        function closeSubMenu() {
-          $(this).find('ul').css('visibility', 'hidden');
-        };
-
-        $('div.navicon-container').click(function () {
-            $('ul.myMenu').slideToggle();
-        });
-
-        $(window).resize(function () {
-          if ( $(window).width() > 600) {
-            $('ul.myMenu').removeAttr('style');
-          }
-        });
-
-      });
-      </script>
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
+        <!--<link rel="stylesheet" type="text/css" href="minified-styles.css" />-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,400i,700,700i&display=swap" rel="stylesheet">   
     </head>
     
