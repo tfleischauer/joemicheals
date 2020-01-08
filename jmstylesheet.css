@@ -211,23 +211,48 @@ header a:hover {
 }
 /*** END HEADER ***/
 
-/*** NAVIGATION STYLES ***/
+/******* TEST *****/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* orignal rules */
 nav {
-	height: 60px;
+	/*height: 60px; */
 	line-height: 60px;
 	font-variant: small-caps;
-	background-color: black;
+	background-color: #000;
 	overflow: hidden;
 	font-family: "PT Sans", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	clear: both;
 	margin-bottom: 19px;
 }
 
-nav ul {
+/*nav ul {
     padding: 0;
     margin: 0 20px;
+}*/
+
+ul.myMenu {
+  /* background-color: #333; */
+  list-style: none;
+  /* center aligns myMenu */
+  margin: 0 auto; 
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
+ul.myMenu > li {
+  /* display: inline-block; */
+  /*float: left;
+  border-bottom: 1px solid #333;
+  background-color: #3E606F;*/
+}
+
+/* original */
 nav li {
 	float: left;
 	line-height: 60px;
@@ -235,24 +260,54 @@ nav li {
 	padding: 0;
 }
 
+/*.myMenu li > a:link,
+.myMenu li > a:visited {
+  display: block;
+  text-decoration: none;
+  padding: .5em 1.5em;
+  border-top: 1px solid #333;
+  border-right: 1px solid #333;
+  color: #FCFFF5;
+  font-size: 1.1em;
+}*/
+
+/* original */
 nav a:link,
 nav a:visited {
 	color: #FFF;
-	padding: 0 14px; /* top-bottom, left-right */	
+	padding: 0 14px; /* top-bottom, left-right */
 	display: block; /* fills entire list item's content area */
 	text-decoration: none;
 	font-size: 18px;
-	border-bottom: none;	
+	border-bottom: none;
 }
 
+.myMenu > li:first-child {
+  /*border-left: 1px solid #333;*/
+}
+
+/*ul.myMenu > li > a:hover {
+  color: #FCFFF5;
+}
+
+.myMenu li:hover,
+.mymenu li:focus {
+  background-color: #91AA9D;
+}
+
+.myMenu li:hover a {
+  color: #193441;
+}*/
+
+/* original */
 nav a:hover,
 nav a:focus {
-	color: #000;	
-	background-color: #FFCB39;	
+	color: #000;
+	background-color: #FFCB39;
 }
 
 nav a:active {
-	color: #000;	
+	color: #000;
 	background-color: #FFCB39;
 }
 
@@ -261,7 +316,116 @@ nav ul li.main-on a {
 	background-color: #000;
 	text-decoration: underline;
 }
-/* END NAVIGATION STYLES */
+
+/* For Submenu */
+/*.myMenu li ul {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  border-bottom: 1px solid #666;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+.myMenu li:hover ul {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.myMenu li ul li {
+  display: inline;
+  float: none;
+}
+
+ul.myMenu li ul li a:link,
+ul.myMenu li ul li a:visited {
+  background-color: #D1DBBD;
+  width: auto;
+  color: #3E606F;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  border-top: 1px solid #666;
+}
+
+.myMenu li:hover ul li a:hover {
+  background-color: #FCFFF5;
+  color: #193441;
+}
+*/
+/* End - For Submenu */
+
+.navicon-container {
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+  ul.myMenu {
+    text-align: left;
+    display: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  ul.myMenu > li {
+    display: block;
+    float: none;
+  }
+
+  .myMenu > li:first-child {
+    border-left: none;
+  }
+
+  ul.myMenu li ul {
+    margin-left: 140px;
+    font-size: .95em;
+  }
+
+  .myMenu li a:link,
+  .myMenu li a:visited {
+    border-top: none;
+    border-left: 1px solid #333;
+  }
+
+  .nav-button {
+    background-color: #000;
+    cursor: pointer;
+
+    /* hamburger: top and bottom borders */
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid #FFF;
+    border-bottom: 0.2em solid #FFF;
+  }
+
+  /* hamburger: absolute positioning of middle line */
+  .nav-button::before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #FFF;
+  }
+
+  .navicon-container {
+    background-color: #000;
+	border-bottom: 1px white;
+    padding: .2em .2em 0 .2em;
+    font-size: 1.5em;
+    color: #FFF;
+    display: block;
+    cursor: pointer;
+  }
+
+}
+/***** END TEST *****/
 
 /* LAYOUT STYLES */
 #wrapper {

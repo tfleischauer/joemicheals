@@ -21,6 +21,33 @@ http://portfolio.troyfleischauer.com
 		<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> 
 		<![endif]-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('ul.myMenu > li').on('mouseover', openSubMenu);
+        $('ul.myMenu > li').on('mouseout', closeSubMenu);
+
+        function openSubMenu() {
+          $(this).find('ul').css('visibility', 'visible');
+        };
+
+        function closeSubMenu() {
+          $(this).find('ul').css('visibility', 'hidden');
+        };
+
+        $('div.navicon-container').click(function () {
+            $('ul.myMenu').slideToggle();
+        });
+
+        $(window).resize(function () {
+          if ( $(window).width() > 600) {
+            $('ul.myMenu').removeAttr('style');
+          }
+        });
+
+      });
+      </script>
     
 		<link rel="stylesheet" type="text/css" href="jmstylesheet.css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,400i,700,700i&display=swap" rel="stylesheet">   
@@ -35,6 +62,8 @@ http://portfolio.troyfleischauer.com
             </header>  <!-- End Header -->
       
             <?php include ('includes/navigation.php'); ?>
+            
+            
               
             <!-- Begin Middle -->
               
