@@ -29,13 +29,44 @@
 			});
 	
 			$(window).resize(function () {
-			  if ( $(window).width() > 600) {
+			  if ( $(window).width() >= 860) {
 				$('ul.myMenu').removeAttr('style');
 			  }
 			});
 	
 		  });
 		 </script>
+         
+         <script>
+		   // change class depending on window size
+		   var x = $('div.eight-of-twelve-columns-right'); 
+		   var w = $(window).width();
+			if(w <= 859) {
+				x.removeClass('eight-of-twelve-columns-right').addClass('audio-video-embeds');
+				
+			}
+			if(w >= 860) {
+				x.removeClass('audio-video-embeds').addClass('eight-of-twelve-columns-right'); 
+  			}
+			
+			
+			// change class depending on window size
+		   //var y = $('.imaging.eight-of-twelve-columns-left'); 
+//		   var width = $(window).width();
+//			if(width <= 859) {
+//				x.removeClass('eight-of-twelve-columns-left').addClass('audio-embeds');
+//				
+//			}
+//			if(w >= 860) {
+//				x.removeClass('audio-video-embeds').addClass('eight-of-twelve-columns-left'); 
+//  			}
+			
+			/* reload the window on browser resize */
+			/*$(window).bind('resize', function() {
+			   location.reload();
+		    });*/
+
+         </script>
          
 		 <script>
            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

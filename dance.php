@@ -1,10 +1,11 @@
 <?php include('includes/header.php'); ?>
                       
-<div class="middle">
+<div class="middle dance">
 
 	<h2>Dance</h2>
   
       <div class="four-of-twelve-columns-left"> 
+      <!--<div class="dance-text">-->
       
       	<h3>Contra Dance</h3>
         
@@ -33,10 +34,12 @@
                 <li><a href="https://www.youtube.com/channel/UCJZHvGEgdqHWoktuwxu0yYw" target="_blank">YouTube</a></li>
              </ul>
       
-    </div> <!-- end .four-of-twelve-columns-left  -->
+    </div> <!-- end .four-of-twelve-columns-left || .dance-text  -->
     
     
-    <div class="eight-of-twelve-columns-right">   
+       
+    <div class="eight-of-twelve-columns-right">
+    <!--<div class="audio-video-embeds">-->
   
       <h3>Audio</h3>
 
@@ -51,9 +54,9 @@
         </div> <!-- end audio-player -->
     
       <h3>Video</h3>
-       
-       <h4>Grumbling & Growling - The Electrodes</h4>   
-       <div> <!-- iframe-div -->
+      
+      <h4>Grumbling & Growling - The Electrodes</h4>   
+       <div class="video-container"> <!-- iframe-div -->
             <div class="iframe-wrapper">
               <iframe class="iframe-embed" src="https://www.youtube.com/embed/FeE15HUr6tg" allowfullscreen></iframe>
             </div> <!-- end iframe wrapper --> 
@@ -71,8 +74,10 @@
          <p class="video-caption-small">The Electrodes at Folklife 2016</p>
          
        </div> <!-- iframe-div -->
+       
+       
               
-    </div> <!-- end .eight-of-twelve-columns-right  --> 
+    </div> <!-- end .eight-of-twelve-columns-right / .audio-video-embeds  --> 
     
 </div> <!-- end class="middle" -->      
                                
