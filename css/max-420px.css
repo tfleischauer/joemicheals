@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Mobile M - 375 px |  420px - 5x50px columns, 4x20px gutters, 2x10px edge gutters */
+@media (max-width: 420px) {
+	
+#wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+.middle {
+	/*width: 100%;*/
+	margin: auto;	
+}
+	
+/*** HEADER ***/
+header h2.tagline {
+	font-size: 3vw;
+	top: 78%;
+	left: 20%;	
+}
+
+header img {
+	padding-top: 5px; 	
+	padding-left: 5px;
+}
+/*** END HEADER ***/
+
+/*** BIO PAGE ***/
+img.Joe-Left {
+	max-width: percent(260/310);
+	height: 100%;
+}
+/*** END BIO PAGE ***/
+
+/*** CONTACT / THANK YOU PAGES ***/
+/** CASHMAN FLIP CARD **/
+.cashman-drawing, .front-contact, .back-contact, .front-thankyou, .back-thankyou {
+     width: 190px;
+     height: 283px;
+ }
+ 
+.front-contact {
+	background: url("../images/joeByCashman-front-190x283px.jpg") no-repeat;
+}
+
+.back-contact {
+	background: url("../images/joeByCashman-back-190x283px.jpg") no-repeat;
+}
+ 
+.front-thankyou {
+	background: url("../images/joeByCashman-front-190x283px.jpg") no-repeat;
+}
+
+.back-thankyou {
+	background: url("../images/joeByCashman-back-190x283px.jpg") no-repeat;
+}
+/** END CASHMAN FLIP CARD **/
+/*** END CONTACT / THANK YOU PAGES ***/
+
+}
+
+
+/* Mobile S - 320 px (If Needed) */
+/*@media (max-width: 320px) { }*/

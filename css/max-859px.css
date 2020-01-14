@@ -3,6 +3,17 @@
 
 @media (max-width: 859px) {
 	
+/*** HEADER ***/
+header {
+	display: flex;	
+}
+
+header h2.tagline {
+/*font-size: calc(1.1em + 0.5vw);*/
+font-size: 2vw; 
+}
+/*** END HEADER ***/
+	
 /*** START RESPONSIVE NAVIGATION STYLES ***/
 nav ul {
   text-align: left;
@@ -72,13 +83,51 @@ nav ul li a:visited {
 
 /*** START BASIC LAYOUT STYLES ***/		
 #wrapper {
-	/*max-width: 860px;	*/
+	/* max-width: 860px;	*/
 	width: 100%;
+	max-width: 100%;
 }
-/*** END BASIC LAYOUT STYLES ***/	
+
+section {
+	margin-bottom: 25px;	
+}
+
+/** IFRAME **/
+.iframe-wrapper {
+	height: 0;
+	position: relative;	
+	
+	/* padding is relative to the width of the element */
+	/* The aspect ratio of 16:10, is expressed by 10/16 = 62.5% */
+	padding-bottom: 62.5%;
+	z-index: 1;
+}
+
+iframe {
+	width: 100%;	
+	height: 100%;
+	position: absolute;
+}
+/** END IFRAME **/
+
+/*** END BASIC LAYOUT STYLES ***/
+
+/*** HOME, COMMERCIAL, INDUSTRIAL, PORTAL 2, ON-CAMERA, AND DANCE PAGES  ***/
+.flex-wrapper {
+	display: flex;
+}
+
+.four-of-twelve-columns-left {
+	flex: none; /* allows div to maintain its fixed width */
+	margin-right: 20px;
+}
+
+.eight-of-twelve-columns-right {
+	/* this column flexes */
+}
+/*** END HOME, COMMERCIAL, INDUSTRIAL, PORTAL 2, ON-CAMERA, AND DANCE PAGES  ***/
 
 /*** IMAGING PAGE ***/
-
 .imaging-page-wrapper {	
 	display: flex;
 }
@@ -94,133 +143,20 @@ nav ul li a:visited {
 
 /*** END IMAGING PAGE ***/
 
-/*** DANCE PAGE ***/
-
-
-
-
-/*.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 0;
-    height: 0;
-    overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
-
-.four-of-twelve-columns-left {
-	/*display: inline-block;*/
-	/*display: block!important;*/
-	
-}
-
-/*.middle.dance {
-	background-color: orange;	
-}*/
-
-/*.dance-text {
-	background-color: blue;
-	width: 260px;
-	float: left;	
-}*/
-
-.middle.dance {
-	display: flex;
-}
-
-.four-of-twelve-columns-left {
-	flex: none; /* allows div to maintain its fixed width */
-}
-
-.eight-of-twelve-columns-right {
-	/*width: 100%;*/	
-	/*display: flex;*/
-	/*flex-wrap: nowrap;*/
-	/*display: inline-block;*/
-	/*background-color: pink;
-	margin-left: 280px;
-	background-color: yellow;*/	
-}
-
-audio {
-	/*max-width: 100%;*/
-	width: 100%;
-}
-
-/* eight-of-twelve-columns-right */
-/*.audio-video-embeds {
-	margin-left: 280px;
-	width: initial;
-}*/
-
- /* causes problem greater than 860 (width: 540px;) */
- /* used JQuery to change classes */
-/*.eight-of-twelve-columns-right {
-	margin-left: 280px;
-}*/
-
-
-/*.audio-embeds {
-	margin-left: 560px;
-}*/
-
-.bio-text {
-	width: 100%;
-}
-
-
-/*** IFRAME ***/
-.iframe-wrapper {
-	height: 0;
-	position: relative;	
-	
-	/* padding is relative to the width of the element */
-	/* The aspect ratio of 16:10, is expressed by 10/16 = 62.5% */
-	padding-bottom:62.5%;
-	z-index:1;
-	/*clear:both;*/
-	/*overflow: hidden;*/
-}
-
-iframe {
-	width:100%;	
-	height:100%;
-	position:absolute;
-	/*top:0;
-	left:0;*/
-	/*margin-left: 20px;*/
-	/*overflow: hidden;*/
-}
-
-/*.video-container {
-	overflow: hidden;
-}*/
-/*** END IFRAME ***/
-
-/*** END DANCE PAGE ***/
-
 /*** START BIO PAGE ***/
 .Bio-1,
 .Bio-2,
 .SeattleTimes {
-	width: 100%;	
+	/*width: 100%;*/	
 	display: flex;
-	flex-wrap: nowrap;
+	/*flex-wrap: nowrap;*/
 }
 
 .Bio-1 img,
 .Bio-2 img,
 .SeattleTimes img {
-	max-width: 100%;
+	/*max-width: 100%;
+	height: 100%;*/
 	margin: 0 20px 15px 0;
 }
 
@@ -241,29 +177,24 @@ img.Joe-Left {
 	height: 310px;
 }
 
+.bio-text {
+	width: 100%;
+}
+
 .clearfix {
   overflow: auto;
 }
-
 /*** END BIO PAGE ***/
 
 /*** START CONTACT / THANK YOU PAGE STYLES ***/	
 #contact-joe {
 	width: 100%;
-	/*background-color: blue;*/
 	margin-right: 20px;
-}
-
-fieldset {
-
-	/*background-color: green;*/
 }
 
 form {
 	width: 100%;
 }
-
-
 
 #first-name,
 #last-name,
@@ -278,49 +209,19 @@ textarea {
 	font-size: 1.1em;	
 }
 
-header h2.tagline {
-font-size: 1.1em;
-width: 100%;
-/*position: absolute;*/
-/*top: 135px;
-left: 90px;	
-font-weight: 400;*/
-}
-
-#wrapper {
-	max-width: 100%;
-	/*margin: auto;*/
-
-
-}
-
-nav {
-	/*font-size: .9em;*/	
-}
-
+/** CASHMAN FLIP CARD **/
 .flip-container {
+	position: static; /* cancels positioning related to parent container .middle-contact */
+	float: none;
 	clear: both;
 	width: 100%;
 	margin: auto;
-	/*align: left;*/
-	/*background-color: pink;*/
 }
 
 .cashman-drawing {
-	/*background-color: purple;*/	
 	margin: auto;
-	max-width: 400px;
-	max-width: 100%;
-	/*clear: both;*/
-	
-	/*display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-min-height: 100vh;*/
-	}
-	
+}
+/** END CASHMAN FLIP CARD **/
 /*** END CONTACT / THANK YOU PAGE STYLES ***/	
 	
 }

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Mobile L - for 425px screens and smaller */ 
+/* 660px - 8x60px columns, 7x20px gutters, 2x20px edge gutters */
+@media (max-width: 660px) {
+	
+/*** HEADER ***/
+header h2.tagline {
+font-size: 2.5vw;
+}
+/*** END HEADER ***/
+	
+/*** IMAGING PAGE ***/
+.imaging-page-wrapper {
+	display: initial; /* removes flex */
+}
+
+.imaging-page-wrapper .eight-of-twelve-columns-left {
+	width: 100%;
+}
+
+.imaging-page-wrapper .four-of-twelve-columns-right {
+	width: 100%;
+	clear: both;
+}
+/*** END IMAGING PAGE ***/
+	
+/*** ON-CAMERA PAGE ***/
+section .four-of-twelve-columns-left {
+	/*display: block;	
+	overflow: hidden;*/
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+section .eight-of-twelve-columns-right {
+	clear: both;
+	display: block;	
+	overflow: hidden;	
+	float: none;
+}
+/*** END ON-CAMERA PAGE ***/
+	
+/*** DANCE PAGE ***/
+.flex-wrapper {
+	display: initial; /* removes flex */
+}
+.four-of-twelve-columns-left {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.eight-of-twelve-columns-right {
+	width: 100%;
+}
+/*** END DANCE PAGE ***/
+
+/*** START BIO PAGE ***/	
+.Bio-1,
+.Bio-2,
+.SeattleTimes {
+	width: 100%;	
+	display: block;
+}
+
+img.Joe-Left {
+	width: 260px;
+	height: 310px;
+}
+/*** END BIO PAGE ***/
+	
+}

@@ -1,5 +1,7 @@
 /* CSS for Joe Micheals */
 
+
+
 /* RESETS */
 body, body * {
     margin: 0;
@@ -86,7 +88,7 @@ ul {
 	list-style-type: disc;
 	list-style-position: inside; /* list item markers will appear inside the document flow */
 	padding-left: 0;	
-	margin-bottom: 0;
+	margin-bottom: .30em;
 	margin-top: .15em;			
 }
 
@@ -186,7 +188,7 @@ h1 span {
 }
 
 header h2.tagline {
-	font-size: 1.1em;
+	font-size: 1.05em;
 	width: 400px;
 	position: absolute;
 	top: 135px;
@@ -206,7 +208,6 @@ header h2.tagline {
 header a:hover {
 	text-decoration: none;
 	border-bottom: none;	
-	/*border-color: transparent;*/
 	background-color: transparent;	
 }
 /*** END HEADER ***/
@@ -248,7 +249,7 @@ nav a:visited {
 	display: block; /* fills entire list item's content area */
 	text-decoration: none;
 	/*font-size: 18px;*/
-	font-size: 1.2em;
+	font-size: 1.15em;
 	border-bottom: none;
 	/*border-top: 1px solid #181818*/
   	border-right: 1px solid #181818;
@@ -320,82 +321,14 @@ ul.myMenu li ul li a:visited {
 */
 /* End - For Sub-Navigation */
 
-/* NAVIGATION MEDIA QUERY */
-@media (max-width: 600px) {
-
-  nav ul {
-    text-align: left;
-    display: none;
-    width: 100%;
-    margin: 0;
-  }
-
-  nav ul > li {
-    display: block;
-    float: none;
-  }
-
-  nav ul > li:first-child {
-    border-left: none;
-  }
-
-  nav ul li ul {
-    margin-left: 140px;
-    font-size: .95em;
-  }
-
-  nav ul li a:link,
-  nav ul li a:visited {
-    border-top: none;
-    border-left: 1px solid #333;
-  }
-
-  .nav-button {
-    background-color: #000;
-    cursor: pointer;
-
-    /* hamburger: top and bottom borders */
-    position: relative;
-    display: inline-block;
-    width: 1.25em;
-    height: 0.8em;
-    margin-right: 0.3em;
-    border-top: 0.2em solid #FFF;
-    border-bottom: 0.2em solid #FFF;
-  }
-
-  /* hamburger: absolute positioning of middle line */
-  .nav-button::before {
-    content: "";
-    position: absolute;
-    top: 0.3em;
-    left: 0px;
-    width: 100%;
-    border-top: 0.2em solid #FFF;
-  }
-
-  .navicon-container {
-    background-color: #000;
-	border-bottom: 1px white;
-    padding: .2em .2em 0 .2em;
-    font-size: 1.5em;
-    color: #FFF;
-    display: block;
-    cursor: pointer;
-  }
-
-}
-/* END NAVIGATION MEDIA QUERY */
-/*** END RESPONSIVE NAVIGATION STYLES ***/
-
+/* DESKTOP - 860 px width - 12x50 px columns, 11x20 px gutters, 2x20 px side gutters */
 /* LAYOUT STYLES */
 #wrapper {
 	background-color: #fff;
 	width: 860px;
 	/*margin-top: 30px;*/
-	margin-right: auto;
+	margin: auto;
 	margin-bottom: 25px;
-	margin-left: auto;
 	/* padding: 0em 1.1em .25em 1.1em; */
 	/*border-radius: 9px;*/ /* Rounded corners */
 	/*-moz-border-radius: 9px;*/ /* Rounded corners in old versions of mozilla */
@@ -407,11 +340,12 @@ ul.myMenu li ul li a:visited {
 	overflow: hidden;
 	padding-left: 20px; /* add 14 px to be same padding as nav items */
 	padding-right: 20px;	/* add 14 px to be same padding as nav items */
-	clear: both;
+	/*clear: both;*/
 	margin-bottom: 20px;
+	margin: auto;
 }
 
-#middle-contact {
+.middle-contact {
 	overflow: hidden;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -433,6 +367,11 @@ ul.myMenu li ul li a:visited {
 }
 
 .eight-of-twelve-columns-right {
+	width: 540px; /* causes problem less than 860 px */
+	float: right;	
+}
+
+.bio-text {
 	width: 540px;
 	float: right;	
 }
@@ -511,32 +450,23 @@ iframe {
 /*** END IFRAME ***/
 
 /*** BIO PAGE ***/
-/* div containing image and paragrapghs */
-#Bio-1 {
-	clear: left;
-	overflow: hidden;
+/* div containing image and paragraphs */
+.Bio-1,
+.Bio-2 {
+	overflow: auto;
 }
 
-#Bio-2 {
-	clear: left;
+.SeattleTimes {
 	overflow: hidden;
-	margin: 0 0 15px 0;
-}
-
-img.Joe-Left {
-	float: left;
-	clear: right;
-	/*border: 3px solid black;*/
-	margin: 0 20px 0 0;
-}
-
-#SeattleTimes {
-	clear: both;
-	overflow: hidden;
-	/*background-color: lightgrey;*/
-	background-color: #fff3d3; /* shade of #FFCB39 */
+	background-color: #fff3d3; /* shade of #FFCB39 (yellow) */
 	padding: 15px 0 15px 0;
 }
+
+.SeattleTimes .eight-of-twelve-columns-right {
+	box-sizing: border-box;
+	padding: 0 15px 0 0;
+}
+
 /*** END BIO PAGE ***/
 
 /*** CONTACT / THANK YOU PAGES ***/
@@ -549,10 +479,6 @@ address.thankyou {
 	margin-bottom: 25px;
 	width: 400px; /* six of twelve columns */
 }
-
-/*.z {
-	z-index: -10;	
-}*/
 
 fieldset {
 	border: none;
@@ -681,4 +607,3 @@ textarea {
 	background-color: transparent;
 	border-bottom: none;	
 }
-
