@@ -1,8 +1,8 @@
 <?php include('includes/header.php'); ?>
                                 
-          	<div id="middle-contact">
+            <div class="middle-contact">
          
-                <div id="contact-joe">
+          		<div id="contact-joe">
                   <h2>Contact: Joe Micheals</h2>
                   
                   <h3>Your Message Has Been Sent. Thank You!</h3>
@@ -16,13 +16,11 @@
                     <form id="contact-form" action="submit.php" method="post">
                      <div class="error">
                       <p>
-                        <!--<label for="fname">First Name: </label>-->
                         <label>First Name: </label>
                         <input type="text" id="first-name" name="first-name" required min-length="2" title="Please enter your first name." />
                       </p>
                       
                       <p>
-                        <!--<label for="lname">Last Name: </label>-->
                         <label>Last Name: </label>
                         <input type="text" id="last-name" name="last-name" required min-length="2" title="Please enter your last name." />
                       </p>
@@ -52,62 +50,35 @@
                    
                   <div id="result"></div>
                 
-                </div> <!-- end contact-joe -->
+          		</div> <!-- end .contact-joe -->
                 
                 <div class="flip-container" title="Illustration by Pat Cashman">   
                     <div class="cashman-drawing">
                         <div class="front-thankyou">
-                        	<!--Need a solution for img at text.-->
+                        	<!--Need a solution for img alt text.-->
                             <!--<img alt="Illustration of Joe Micheals by Pat Cashman">--> 
                         </div>
                         <div class="back-thankyou">
                             <!-- back side content -->
                         </div>
                     </div>   <!-- end .cashman-drawing --> 
-                </div>	<!-- end .flipcontainer --> 
+                </div>	<!-- end .flip-container --> 
                  
-              </div> <!-- end middle-contact --> 
+            </div> <!-- end .middle-contact --> 
+              
+			<script src="js/jquery-2.1.1.min.js"></script>
+  
+            <!-- form is for the ajax submit -->
+            <script src="js/jquery.form.js"></script> 
+            <script src="js/jquery.validate.min.js"></script>
+            <script src="js/formscript.js"></script> 
+            
 
-<?php /*?>Not using footer includes because this page has the Pat Cashman illustration credit.<?php */?>             
-<?php /*?><?php include("includes/footer.php"); ?><?php */?> 
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>         
+            <script>
+                $(document).ready(function() {
+                    $('nav ul li:last-child').addClass('main-on');
+                });
+            </script>
 
-              <footer>
-                <p><small>Joe Micheals illustrations by Pat Cashman</small></p>
-                <script>
-                    var date = new Date();
-                    var year = date.getFullYear(); 
-                    document.write("<p>&copy; " + year + " Joe Micheals. &nbsp;All rights reserved.</p>");
-                </script>
-              <footer>
-         
-        </div> <!-- end wrapper -->
-         
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
-        <script src="js/jquery-2.1.1.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <!-- form is for the ajax submit -->
-        <script src="js/jquery.form.js"></script> 
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/myscript.js"></script> 
-        <script src="js/formscript.js"></script> 
-        <script src="js/less-1.7.0.min.js"></script>
-        
-        <script>
-			$(document).ready(function() {
-  				$('nav ul li:last-child').addClass('main-on');
-			});
-		</script>
-             
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-          ga('create', 'UA-60037331-1', 'auto');
-          ga('send', 'pageview');  
-        </script>
-
-    </body>
-    
-</html>
+<?php include("includes/footer.php"); ?>

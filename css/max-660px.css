@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-
-/* Mobile L - for 425px screens and smaller */ 
+/* Mobile L - For 425px screens and smaller */ 
 /* 660px - 8x60px columns, 7x20px gutters, 2x20px edge gutters */
+
 @media (max-width: 660px) {
 	
 /*** HEADER ***/

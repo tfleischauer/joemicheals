@@ -1,7 +1,38 @@
 @charset "UTF-8";
 /* CSS Document */
+/* Tablet - For 768px screens and smaller */
+/* Based on 860px - 12x50px columns, 11x20px gutters, 2x20px side gutters */ 
 
 @media (max-width: 859px) {
+	
+/*** START GLOBAL LAYOUT STYLES ***/		
+#wrapper {
+	width: 100%;
+	max-width: 100%;
+}
+
+section {
+	margin-bottom: 25px;	
+}
+
+/** IFRAME **/
+.iframe-wrapper {
+	height: 0;
+	position: relative;	
+	
+	/* padding is relative to the width of the element */
+	/* The aspect ratio of 16:10, is expressed by 10/16 = 62.5% */
+	padding-bottom: 62.5%;
+	z-index: 1;
+}
+
+iframe {
+	width: 100%;	
+	height: 100%;
+	position: absolute;
+}
+/** END IFRAME **/
+/*** END GLOBAL LAYOUT STYLES ***/
 	
 /*** HEADER ***/
 header {
@@ -77,41 +108,6 @@ nav ul li a:visited {
 }
 /*** END RESPONSIVE NAVIGATION STYLES ***/
 
-/* Tablet 768 px | 800 px - 12x45 px columns, 11x20px gutters, 2x20px side gutters */
-/* Tablet 768 px | 840 px - 12x50 px columns, 11x20px gutters, 2x10px side gutters */ 
-/* Tablet 768 px | 860 px - 12x50 px columns, 11x20px gutters, 2x20px side gutters */ 
-
-/*** START BASIC LAYOUT STYLES ***/		
-#wrapper {
-	/* max-width: 860px;	*/
-	width: 100%;
-	max-width: 100%;
-}
-
-section {
-	margin-bottom: 25px;	
-}
-
-/** IFRAME **/
-.iframe-wrapper {
-	height: 0;
-	position: relative;	
-	
-	/* padding is relative to the width of the element */
-	/* The aspect ratio of 16:10, is expressed by 10/16 = 62.5% */
-	padding-bottom: 62.5%;
-	z-index: 1;
-}
-
-iframe {
-	width: 100%;	
-	height: 100%;
-	position: absolute;
-}
-/** END IFRAME **/
-
-/*** END BASIC LAYOUT STYLES ***/
-
 /*** HOME, COMMERCIAL, INDUSTRIAL, PORTAL 2, ON-CAMERA, AND DANCE PAGES  ***/
 .flex-wrapper {
 	display: flex;
@@ -147,16 +143,12 @@ iframe {
 .Bio-1,
 .Bio-2,
 .SeattleTimes {
-	/*width: 100%;*/	
 	display: flex;
-	/*flex-wrap: nowrap;*/
 }
 
 .Bio-1 img,
 .Bio-2 img,
 .SeattleTimes img {
-	/*max-width: 100%;
-	height: 100%;*/
 	margin: 0 20px 15px 0;
 }
 
@@ -211,7 +203,9 @@ textarea {
 
 /** CASHMAN FLIP CARD **/
 .flip-container {
-	position: static; /* cancels positioning related to parent container .middle-contact */
+	/* cancels positioning related to parent container .middle-contact */
+	position: static; 
+	
 	float: none;
 	clear: both;
 	width: 100%;
@@ -225,10 +219,3 @@ textarea {
 /*** END CONTACT / THANK YOU PAGE STYLES ***/	
 	
 }
-
-
-
-
-
-
-

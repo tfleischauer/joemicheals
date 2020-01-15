@@ -1,12 +1,12 @@
 <?php include('includes/header.php'); ?>
                                 
-          	<div id="middle-contact">
+            <div class="middle-contact">
          
-                <div id="contact-joe">
+          		<div id="contact-joe">
                   <h2>Contact: Joe Micheals</h2>
                   
                   <address>
-                    <p>Call Joe at [206] 284.5482</p><!--, <a href="http://facebook.com/joe.micheals">Facebook</a>-->
+                    <p>Call Joe at [206] 284.5482</p>
                   </address>   
                 
                   <fieldset>
@@ -48,7 +48,7 @@
                        
                   <div id="result"></div>
                  
-                </div> <!-- end contact-joe -->
+          		</div> <!-- end .contact-joe -->
                 
                 <div class="flip-container" title="Illustration by Pat Cashman">   
                     <div class="cashman-drawing">
@@ -59,16 +59,16 @@
                             <!-- back side content -->
                         </div>
                     </div>   <!-- end .cashman-drawing --> 
-                </div>	<!-- end .flipcontainer --> 
+                </div>	<!-- end .flip-container --> 
                  
-              </div> <!-- end middle-contact --> 
+            </div> <!-- end .middle-contact --> 
               
-              <script src="js/jquery-2.1.1.min.js"></script>
-    
-    		  <!-- form is for the ajax submit -->
-              <script src="js/jquery.form.js"></script> 
-              <script src="js/jquery.validate.min.js"></script>
-              <script src="js/formscript.js"></script> 
+			<script src="js/jquery-2.1.1.min.js"></script>
+  
+            <!-- form is for the ajax submit -->
+            <script src="js/jquery.form.js"></script> 
+            <script src="js/jquery.validate.min.js"></script>
+            <script src="js/formscript.js"></script> 
 
 <?php include("includes/footer.php"); ?>
             

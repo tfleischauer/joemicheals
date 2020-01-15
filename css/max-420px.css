@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+/* Mobile M - For 375px screens and smaller */
+/* 420px - 5x50px columns, 4x20px gutters, 2x10px edge gutters */
 
-/* Mobile M - 375 px |  420px - 5x50px columns, 4x20px gutters, 2x10px edge gutters */
 @media (max-width: 420px) {
 	
 #wrapper {
@@ -61,6 +62,6 @@ img.Joe-Left {
 
 }
 
-
-/* Mobile S - 320 px (If Needed) */
+/* Next media query (if needed) */ 
+/* Mobile S - 320 px */
 /*@media (max-width: 320px) { }*/

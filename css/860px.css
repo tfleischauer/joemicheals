@@ -21,7 +21,7 @@ html  {
 	background-color: #FFCB39;
 	/* background-color:#f1f1f1; */ /* off white to contrast white wrapper color */
 	/* fallback image */
-	background-image: url('images/gradientBackGround1_20x500.png'); 
+	background-image: url('../images/gradientBackGround1_20x500.png'); 
 	background-repeat: repeat-x;
 	/* Firefox 3.6+ */
 	background-image: -moz-linear-gradient(#FFD152, #FFCB39);
@@ -566,25 +566,25 @@ textarea {
 .front-contact {
 	z-index: 1;
 	transform: rotateY(180deg);
-	background: url("images/joeByCashman-front-400x597px.jpg") no-repeat;
+	background: url("../images/joeByCashman-front-400x597px.jpg") no-repeat;
 }
 
 .back-contact {
 	z-index: 2; /* back side, placed above front */
 	transform: rotateY(0deg);
-	background: url("images/joeByCashman-back-400x597px.jpg") no-repeat;
+	background: url("../images/joeByCashman-back-400x597px.jpg") no-repeat;
 }
 
 .front-thankyou {
 	z-index: 2; /* front side, placed above back */
 	transform: rotateY(0deg);
-	background: url("images/joeByCashman-front-400x597px.jpg") no-repeat;
+	background: url("../images/joeByCashman-front-400x597px.jpg") no-repeat;
 }
 
 .back-thankyou {
 	z-index: 1;
 	transform: rotateY(180deg);
-	background: url("images/joeByCashman-back-400x597px.jpg") no-repeat;
+	background: url("../images/joeByCashman-back-400x597px.jpg") no-repeat;
 }
 /** END CASHMAN FLIP CARD **/
 /*** END CONTACT / THANK YOU PAGES ***/
